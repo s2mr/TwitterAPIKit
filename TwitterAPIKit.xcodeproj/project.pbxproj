@@ -1,0 +1,1967 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2515C70B2A55007200252D9F /* TwitterAPI+Flat.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C5BB2A55007200252D9F /* TwitterAPI+Flat.generated.swift */; };
+		2515C70C2A55007200252D9F /* TwitterDirectMessageEventTypeV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C5BE2A55007200252D9F /* TwitterDirectMessageEventTypeV2.swift */; };
+		2515C70D2A55007200252D9F /* GetDmEventsRequestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C5C02A55007200252D9F /* GetDmEventsRequestV2.swift */; };
+		2515C70E2A55007200252D9F /* GetDmConversationsWithParticipantIdDmEventsRequestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C5C12A55007200252D9F /* GetDmConversationsWithParticipantIdDmEventsRequestV2.swift */; };
+		2515C70F2A55007200252D9F /* PostDmConversationByIdRequestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C5C22A55007200252D9F /* PostDmConversationByIdRequestV2.swift */; };
+		2515C7102A55007200252D9F /* PostDmConversationRequestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C5C32A55007200252D9F /* PostDmConversationRequestV2.swift */; };
+		2515C7112A55007200252D9F /* GetDmConversationsIdDmEventsRequestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C5C42A55007200252D9F /* GetDmConversationsIdDmEventsRequestV2.swift */; };
+		2515C7122A55007200252D9F /* PostDmConversationWithUserRequestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C5C52A55007200252D9F /* PostDmConversationWithUserRequestV2.swift */; };
+		2515C7132A55007200252D9F /* DirectMessageAPIv2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C5C62A55007200252D9F /* DirectMessageAPIv2.swift */; };
+		2515C7142A55007200252D9F /* GetTweetsRequestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C5C92A55007200252D9F /* GetTweetsRequestV2.swift */; };
+		2515C7152A55007200252D9F /* PostTweetsRequestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C5CA2A55007200252D9F /* PostTweetsRequestV2.swift */; };
+		2515C7162A55007200252D9F /* GetTweetRequestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C5CB2A55007200252D9F /* GetTweetRequestV2.swift */; };
+		2515C7172A55007200252D9F /* PutTweetsHiddenRequestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C5CC2A55007200252D9F /* PutTweetsHiddenRequestV2.swift */; };
+		2515C7182A55007200252D9F /* DeleteTweetRequestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C5CD2A55007200252D9F /* DeleteTweetRequestV2.swift */; };
+		2515C7192A55007200252D9F /* GetTweetsQuoteTweetsRequestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C5CE2A55007200252D9F /* GetTweetsQuoteTweetsRequestV2.swift */; };
+		2515C71A2A55007200252D9F /* TweetAPIv2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C5CF2A55007200252D9F /* TweetAPIv2.swift */; };
+		2515C71B2A55007200252D9F /* RetweetAPIv2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C5D12A55007200252D9F /* RetweetAPIv2.swift */; };
+		2515C71C2A55007200252D9F /* GetTweetsRetweetedByRequestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C5D32A55007200252D9F /* GetTweetsRetweetedByRequestV2.swift */; };
+		2515C71D2A55007200252D9F /* PostUsersRetweetsRequestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C5D42A55007200252D9F /* PostUsersRetweetsRequestV2.swift */; };
+		2515C71E2A55007200252D9F /* DeleteUsersRetweetsRequestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C5D52A55007200252D9F /* DeleteUsersRetweetsRequestV2.swift */; };
+		2515C71F2A55007200252D9F /* GetTweetsLikingUsersRequestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C5D82A55007200252D9F /* GetTweetsLikingUsersRequestV2.swift */; };
+		2515C7202A55007200252D9F /* DeleteUsersLikesRequestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C5D92A55007200252D9F /* DeleteUsersLikesRequestV2.swift */; };
+		2515C7212A55007200252D9F /* PostUsersLikesRequestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C5DA2A55007200252D9F /* PostUsersLikesRequestV2.swift */; };
+		2515C7222A55007200252D9F /* GetUsersLikedTweetsRequestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C5DB2A55007200252D9F /* GetUsersLikedTweetsRequestV2.swift */; };
+		2515C7232A55007200252D9F /* LikeAPIv2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C5DC2A55007200252D9F /* LikeAPIv2.swift */; };
+		2515C7242A55007200252D9F /* ExpansionsV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C5DD2A55007200252D9F /* ExpansionsV2.swift */; };
+		2515C7252A55007200252D9F /* GetTweetsSearchStreamRulesRequestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C5E02A55007200252D9F /* GetTweetsSearchStreamRulesRequestV2.swift */; };
+		2515C7262A55007200252D9F /* GetTweetsSearchStreamRequestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C5E12A55007200252D9F /* GetTweetsSearchStreamRequestV2.swift */; };
+		2515C7272A55007200252D9F /* PostTweetsSearchStreamRulesRequestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C5E22A55007200252D9F /* PostTweetsSearchStreamRulesRequestV2.swift */; };
+		2515C7282A55007200252D9F /* GetTweetsSampleStreamRequestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C5E32A55007200252D9F /* GetTweetsSampleStreamRequestV2.swift */; };
+		2515C7292A55007200252D9F /* StreamAPIv2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C5E42A55007200252D9F /* StreamAPIv2.swift */; };
+		2515C72A2A55007200252D9F /* GetSpacesTweetsRequestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C5E72A55007200252D9F /* GetSpacesTweetsRequestV2.swift */; };
+		2515C72B2A55007200252D9F /* GetSpacesSearchRequestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C5E82A55007200252D9F /* GetSpacesSearchRequestV2.swift */; };
+		2515C72C2A55007200252D9F /* GetSpaceRequestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C5E92A55007200252D9F /* GetSpaceRequestV2.swift */; };
+		2515C72D2A55007200252D9F /* GetSpacesByCreatorIDsRequestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C5EA2A55007200252D9F /* GetSpacesByCreatorIDsRequestV2.swift */; };
+		2515C72E2A55007200252D9F /* GetSpacesRequestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C5EB2A55007200252D9F /* GetSpacesRequestV2.swift */; };
+		2515C72F2A55007200252D9F /* GetSpacesBuyersRequestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C5EC2A55007200252D9F /* GetSpacesBuyersRequestV2.swift */; };
+		2515C7302A55007200252D9F /* SpacesAPIv2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C5ED2A55007200252D9F /* SpacesAPIv2.swift */; };
+		2515C7312A55007200252D9F /* DeleteUsersMutingRequestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C5F02A55007200252D9F /* DeleteUsersMutingRequestV2.swift */; };
+		2515C7322A55007200252D9F /* GetUsersBlockingRequestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C5F12A55007200252D9F /* GetUsersBlockingRequestV2.swift */; };
+		2515C7332A55007200252D9F /* PostUsersMutingRequestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C5F22A55007200252D9F /* PostUsersMutingRequestV2.swift */; };
+		2515C7342A55007200252D9F /* GetUsersMutingRequestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C5F32A55007200252D9F /* GetUsersMutingRequestV2.swift */; };
+		2515C7352A55007200252D9F /* PostUsersBlockingRequestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C5F42A55007200252D9F /* PostUsersBlockingRequestV2.swift */; };
+		2515C7362A55007200252D9F /* DeleteUsersBlockingRequestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C5F52A55007200252D9F /* DeleteUsersBlockingRequestV2.swift */; };
+		2515C7372A55007200252D9F /* BlockAndMuteAPIv2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C5F62A55007200252D9F /* BlockAndMuteAPIv2.swift */; };
+		2515C7382A55007200252D9F /* FieldsV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C5F72A55007200252D9F /* FieldsV2.swift */; };
+		2515C7392A55007200252D9F /* FriendshipsAPIv2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C5F92A55007200252D9F /* FriendshipsAPIv2.swift */; };
+		2515C73A2A55007200252D9F /* GetUsersFollowingRequestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C5FB2A55007200252D9F /* GetUsersFollowingRequestV2.swift */; };
+		2515C73B2A55007200252D9F /* GetUsersFollowersRequestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C5FC2A55007200252D9F /* GetUsersFollowersRequestV2.swift */; };
+		2515C73C2A55007200252D9F /* PostUsersFollowingRequestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C5FD2A55007200252D9F /* PostUsersFollowingRequestV2.swift */; };
+		2515C73D2A55007200252D9F /* DeleteUsersFollowingRequestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C5FE2A55007200252D9F /* DeleteUsersFollowingRequestV2.swift */; };
+		2515C73E2A55007200252D9F /* GetComplianceJobRequestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6012A55007200252D9F /* GetComplianceJobRequestV2.swift */; };
+		2515C73F2A55007200252D9F /* PostComplianceJobsRequestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6022A55007200252D9F /* PostComplianceJobsRequestV2.swift */; };
+		2515C7402A55007200252D9F /* GetComplianceJobsRequestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6032A55007200252D9F /* GetComplianceJobsRequestV2.swift */; };
+		2515C7412A55007200252D9F /* TwitterComplianceJobTypeV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6042A55007200252D9F /* TwitterComplianceJobTypeV2.swift */; };
+		2515C7422A55007200252D9F /* ComplianceAPIv2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6052A55007200252D9F /* ComplianceAPIv2.swift */; };
+		2515C7432A55007200252D9F /* TwitterAPIv2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6062A55007200252D9F /* TwitterAPIv2.swift */; };
+		2515C7442A55007200252D9F /* GetTweetsSearchAllRequestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6092A55007200252D9F /* GetTweetsSearchAllRequestV2.swift */; };
+		2515C7452A55007200252D9F /* GetTweetsSearchRecentRequestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C60A2A55007200252D9F /* GetTweetsSearchRecentRequestV2.swift */; };
+		2515C7462A55007200252D9F /* TwitterSearchTweetsSortOrderV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C60B2A55007200252D9F /* TwitterSearchTweetsSortOrderV2.swift */; };
+		2515C7472A55007200252D9F /* SearchAPIv2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C60C2A55007200252D9F /* SearchAPIv2.swift */; };
+		2515C7482A55007200252D9F /* BookmarksAPIv2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C60E2A55007200252D9F /* BookmarksAPIv2.swift */; };
+		2515C7492A55007200252D9F /* PostUsersBookmarksRequestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6102A55007200252D9F /* PostUsersBookmarksRequestV2.swift */; };
+		2515C74A2A55007200252D9F /* DeleteUsersBookmarksRequestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6112A55007200252D9F /* DeleteUsersBookmarksRequestV2.swift */; };
+		2515C74B2A55007200252D9F /* GetUsersBookmarksRequestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6122A55007200252D9F /* GetUsersBookmarksRequestV2.swift */; };
+		2515C74C2A55007200252D9F /* TweetCountAPIv2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6142A55007200252D9F /* TweetCountAPIv2.swift */; };
+		2515C74D2A55007200252D9F /* GetTweetsCountsRecentRequestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6162A55007200252D9F /* GetTweetsCountsRecentRequestV2.swift */; };
+		2515C74E2A55007200252D9F /* TweetCountGranularity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6172A55007200252D9F /* TweetCountGranularity.swift */; };
+		2515C74F2A55007200252D9F /* GetTweetsCountsAllRequestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6182A55007200252D9F /* GetTweetsCountsAllRequestV2.swift */; };
+		2515C7502A55007200252D9F /* ListAPIv2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C61A2A55007200252D9F /* ListAPIv2.swift */; };
+		2515C7512A55007200252D9F /* PutListRequestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C61C2A55007200252D9F /* PutListRequestV2.swift */; };
+		2515C7522A55007200252D9F /* DeleteListRequestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C61D2A55007200252D9F /* DeleteListRequestV2.swift */; };
+		2515C7532A55007200252D9F /* GetUsersListMembershipsRequestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C61E2A55007200252D9F /* GetUsersListMembershipsRequestV2.swift */; };
+		2515C7542A55007200252D9F /* PostListsMembersRequestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C61F2A55007200252D9F /* PostListsMembersRequestV2.swift */; };
+		2515C7552A55007200252D9F /* DeleteUsersFollowedListsRequestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6202A55007200252D9F /* DeleteUsersFollowedListsRequestV2.swift */; };
+		2515C7562A55007200252D9F /* PostUsersFollowedListsRequestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6212A55007200252D9F /* PostUsersFollowedListsRequestV2.swift */; };
+		2515C7572A55007200252D9F /* DeleteUsersPinnedListsRequestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6222A55007200252D9F /* DeleteUsersPinnedListsRequestV2.swift */; };
+		2515C7582A55007200252D9F /* DeleteListsMembersRequestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6232A55007200252D9F /* DeleteListsMembersRequestV2.swift */; };
+		2515C7592A55007200252D9F /* GetListsTweetsRequestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6242A55007200252D9F /* GetListsTweetsRequestV2.swift */; };
+		2515C75A2A55007200252D9F /* PostUsersPinnedListsRequestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6252A55007200252D9F /* PostUsersPinnedListsRequestV2.swift */; };
+		2515C75B2A55007200252D9F /* GetUsersOwnedListsRequestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6262A55007200252D9F /* GetUsersOwnedListsRequestV2.swift */; };
+		2515C75C2A55007200252D9F /* PostListsRequestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6272A55007200252D9F /* PostListsRequestV2.swift */; };
+		2515C75D2A55007200252D9F /* GetListRequestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6282A55007200252D9F /* GetListRequestV2.swift */; };
+		2515C75E2A55007200252D9F /* GetUsersPinnedListsRequestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6292A55007200252D9F /* GetUsersPinnedListsRequestV2.swift */; };
+		2515C75F2A55007200252D9F /* GetListsFollowersRequestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C62A2A55007200252D9F /* GetListsFollowersRequestV2.swift */; };
+		2515C7602A55007200252D9F /* GetListsMembersRequestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C62B2A55007200252D9F /* GetListsMembersRequestV2.swift */; };
+		2515C7612A55007200252D9F /* GetUsersFollowedListsRequestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C62C2A55007200252D9F /* GetUsersFollowedListsRequestV2.swift */; };
+		2515C7622A55007200252D9F /* GetUsersByRequestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C62F2A55007200252D9F /* GetUsersByRequestV2.swift */; };
+		2515C7632A55007200252D9F /* GetUserRequestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6302A55007200252D9F /* GetUserRequestV2.swift */; };
+		2515C7642A55007200252D9F /* GetUsersRequestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6312A55007200252D9F /* GetUsersRequestV2.swift */; };
+		2515C7652A55007200252D9F /* GetUsersByUsernameRequestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6322A55007200252D9F /* GetUsersByUsernameRequestV2.swift */; };
+		2515C7662A55007200252D9F /* GetUsersMeRequestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6332A55007200252D9F /* GetUsersMeRequestV2.swift */; };
+		2515C7672A55007200252D9F /* UserAPIv2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6342A55007200252D9F /* UserAPIv2.swift */; };
+		2515C7682A55007200252D9F /* TimelineAPIv2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6362A55007200252D9F /* TimelineAPIv2.swift */; };
+		2515C7692A55007200252D9F /* GetUsersTimelinesReverseChronologicalRequestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6382A55007200252D9F /* GetUsersTimelinesReverseChronologicalRequestV2.swift */; };
+		2515C76A2A55007200252D9F /* GetUsersMentionsRequestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6392A55007200252D9F /* GetUsersMentionsRequestV2.swift */; };
+		2515C76B2A55007200252D9F /* GetUsersTweetsRequestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C63A2A55007200252D9F /* GetUsersTweetsRequestV2.swift */; };
+		2515C76C2A55007200252D9F /* TwitterTimelineExcludeV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C63B2A55007200252D9F /* TwitterTimelineExcludeV2.swift */; };
+		2515C76D2A55007200252D9F /* TwitterAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C63C2A55007200252D9F /* TwitterAPIClient.swift */; };
+		2515C76E2A55007200252D9F /* TwitterAPIErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C63D2A55007200252D9F /* TwitterAPIErrorResponse.swift */; };
+		2515C76F2A55007200252D9F /* TwitterAPISessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C63E2A55007200252D9F /* TwitterAPISessionDelegate.swift */; };
+		2515C7702A55007200252D9F /* TwitterAPIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C63F2A55007200252D9F /* TwitterAPIRequest.swift */; };
+		2515C7712A55007200252D9F /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6412A55007200252D9F /* Date.swift */; };
+		2515C7722A55007200252D9F /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6422A55007200252D9F /* Data.swift */; };
+		2515C7732A55007200252D9F /* Concurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6432A55007200252D9F /* Concurrency.swift */; };
+		2515C7742A55007200252D9F /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6442A55007200252D9F /* Result.swift */; };
+		2515C7752A55007200252D9F /* DispatchQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6452A55007200252D9F /* DispatchQueue.swift */; };
+		2515C7762A55007200252D9F /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6462A55007200252D9F /* Dictionary.swift */; };
+		2515C7772A55007200252D9F /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6472A55007200252D9F /* String.swift */; };
+		2515C7782A55007200252D9F /* TwitterAuthenticationMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6482A55007200252D9F /* TwitterAuthenticationMethod.swift */; };
+		2515C7792A55007200252D9F /* OAuthHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6492A55007200252D9F /* OAuthHelper.swift */; };
+		2515C77A2A55007200252D9F /* TwitterAPIKitError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C64A2A55007200252D9F /* TwitterAPIKitError.swift */; };
+		2515C77B2A55007200252D9F /* TwitterAPIFailedTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C64C2A55007200252D9F /* TwitterAPIFailedTask.swift */; };
+		2515C77C2A55007200252D9F /* TwitterAPISessionDelegatedJSONTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C64D2A55007200252D9F /* TwitterAPISessionDelegatedJSONTask.swift */; };
+		2515C77D2A55007200252D9F /* TwitterAPISessionJSONTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C64E2A55007200252D9F /* TwitterAPISessionJSONTask.swift */; };
+		2515C77E2A55007200252D9F /* TwitterAPISessionSpecializedTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C64F2A55007200252D9F /* TwitterAPISessionSpecializedTask.swift */; };
+		2515C77F2A55007200252D9F /* TwitterAPISessionStreamTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6502A55007200252D9F /* TwitterAPISessionStreamTask.swift */; };
+		2515C7802A55007200252D9F /* TwitterAPISessionDelegatedStreamTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6512A55007200252D9F /* TwitterAPISessionDelegatedStreamTask.swift */; };
+		2515C7812A55007200252D9F /* TwitterAPISessionDataTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6522A55007200252D9F /* TwitterAPISessionDataTask.swift */; };
+		2515C7822A55007200252D9F /* TwitterAPISessionTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6532A55007200252D9F /* TwitterAPISessionTask.swift */; };
+		2515C7832A55007200252D9F /* TwitterUserIdentifierV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6552A55007200252D9F /* TwitterUserIdentifierV1.swift */; };
+		2515C7842A55007200252D9F /* DeleteDirectMessageRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6582A55007200252D9F /* DeleteDirectMessageRequestV1.swift */; };
+		2515C7852A55007200252D9F /* PostDirectMessagesMarkReadRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6592A55007200252D9F /* PostDirectMessagesMarkReadRequestV1.swift */; };
+		2515C7862A55007200252D9F /* PostDirectMessageRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C65A2A55007200252D9F /* PostDirectMessageRequestV1.swift */; };
+		2515C7872A55007200252D9F /* GetDirectMessageRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C65B2A55007200252D9F /* GetDirectMessageRequestV1.swift */; };
+		2515C7882A55007200252D9F /* PostDirectMessagesIndicateTypingRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C65C2A55007200252D9F /* PostDirectMessagesIndicateTypingRequestV1.swift */; };
+		2515C7892A55007200252D9F /* GetDirectMessageListRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C65D2A55007200252D9F /* GetDirectMessageListRequestV1.swift */; };
+		2515C78A2A55007200252D9F /* DirectMessageAPIv1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C65E2A55007200252D9F /* DirectMessageAPIv1.swift */; };
+		2515C78B2A55007200252D9F /* PostStatusesDestroyRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6612A55007200252D9F /* PostStatusesDestroyRequestV1.swift */; };
+		2515C78C2A55007200252D9F /* PostUpdateStatusRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6622A55007200252D9F /* PostUpdateStatusRequestV1.swift */; };
+		2515C78D2A55007200252D9F /* GetStatusesLookupRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6632A55007200252D9F /* GetStatusesLookupRequestV1.swift */; };
+		2515C78E2A55007200252D9F /* GetStatusesShowRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6642A55007200252D9F /* GetStatusesShowRequestV1.swift */; };
+		2515C78F2A55007200252D9F /* TweetAPIv1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6652A55007200252D9F /* TweetAPIv1.swift */; };
+		2515C7902A55007200252D9F /* RetweetAPIv1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6672A55007200252D9F /* RetweetAPIv1.swift */; };
+		2515C7912A55007200252D9F /* PostRetweetRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6692A55007200252D9F /* PostRetweetRequestV1.swift */; };
+		2515C7922A55007200252D9F /* GetRetweetersRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C66A2A55007200252D9F /* GetRetweetersRequestV1.swift */; };
+		2515C7932A55007200252D9F /* GetRetweetsOfMeRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C66B2A55007200252D9F /* GetRetweetsOfMeRequestV1.swift */; };
+		2515C7942A55007200252D9F /* PostUnRetweetRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C66C2A55007200252D9F /* PostUnRetweetRequestV1.swift */; };
+		2515C7952A55007200252D9F /* GetRetweetsRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C66D2A55007200252D9F /* GetRetweetsRequestV1.swift */; };
+		2515C7962A55007200252D9F /* TwitterLocations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C66E2A55007200252D9F /* TwitterLocations.swift */; };
+		2515C7972A55007200252D9F /* PostCollectionsEntriesAddRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6712A55007200252D9F /* PostCollectionsEntriesAddRequestV1.swift */; };
+		2515C7982A55007200252D9F /* PostCollectionsDestroyRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6722A55007200252D9F /* PostCollectionsDestroyRequestV1.swift */; };
+		2515C7992A55007200252D9F /* PostCollectionsCreateRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6732A55007200252D9F /* PostCollectionsCreateRequestV1.swift */; };
+		2515C79A2A55007200252D9F /* GetCollectionsListRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6742A55007200252D9F /* GetCollectionsListRequestV1.swift */; };
+		2515C79B2A55007200252D9F /* PostCollectionsUpdateRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6752A55007200252D9F /* PostCollectionsUpdateRequestV1.swift */; };
+		2515C79C2A55007200252D9F /* GetCollectionsEntriesRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6762A55007200252D9F /* GetCollectionsEntriesRequestV1.swift */; };
+		2515C79D2A55007200252D9F /* PostCollectionsEntriesMoveRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6772A55007200252D9F /* PostCollectionsEntriesMoveRequestV1.swift */; };
+		2515C79E2A55007200252D9F /* GetCollectionsShowRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6782A55007200252D9F /* GetCollectionsShowRequestV1.swift */; };
+		2515C79F2A55007200252D9F /* PostCollectionsEntriesRemoveRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6792A55007200252D9F /* PostCollectionsEntriesRemoveRequestV1.swift */; };
+		2515C7A02A55007200252D9F /* PostCollectionsEntriesCurateRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C67A2A55007200252D9F /* PostCollectionsEntriesCurateRequestV1.swift */; };
+		2515C7A12A55007200252D9F /* CollectionAPIv1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C67B2A55007200252D9F /* CollectionAPIv1.swift */; };
+		2515C7A22A55007200252D9F /* TwitterAPIv1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C67C2A55007200252D9F /* TwitterAPIv1.swift */; };
+		2515C7A32A55007200252D9F /* TrendAPIv1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C67E2A55007200252D9F /* TrendAPIv1.swift */; };
+		2515C7A42A55007200252D9F /* GetTrendsPlaceRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6802A55007200252D9F /* GetTrendsPlaceRequestV1.swift */; };
+		2515C7A52A55007200252D9F /* GetTrendsClosestRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6812A55007200252D9F /* GetTrendsClosestRequestV1.swift */; };
+		2515C7A62A55007200252D9F /* GetTrendsAvailableRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6822A55007200252D9F /* GetTrendsAvailableRequestV1.swift */; };
+		2515C7A72A55007200252D9F /* TwitterListIdentifierV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6832A55007200252D9F /* TwitterListIdentifierV1.swift */; };
+		2515C7A82A55007200252D9F /* TwitterListModeV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6842A55007200252D9F /* TwitterListModeV1.swift */; };
+		2515C7A92A55007200252D9F /* GetGeoReverseGeocodeRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6872A55007200252D9F /* GetGeoReverseGeocodeRequestV1.swift */; };
+		2515C7AA2A55007200252D9F /* GetGeoPlaceIDRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6882A55007200252D9F /* GetGeoPlaceIDRequestV1.swift */; };
+		2515C7AB2A55007200252D9F /* GetGeoSearchRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6892A55007200252D9F /* GetGeoSearchRequestV1.swift */; };
+		2515C7AC2A55007200252D9F /* GeoAPIv1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C68A2A55007200252D9F /* GeoAPIv1.swift */; };
+		2515C7AD2A55007200252D9F /* PostMutesUsersDestroyRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C68D2A55007200252D9F /* PostMutesUsersDestroyRequestV1.swift */; };
+		2515C7AE2A55007200252D9F /* GetBlocksIDsRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C68E2A55007200252D9F /* GetBlocksIDsRequestV1.swift */; };
+		2515C7AF2A55007200252D9F /* PostBlocksCreateRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C68F2A55007200252D9F /* PostBlocksCreateRequestV1.swift */; };
+		2515C7B02A55007200252D9F /* PostMutesUsersCreateRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6902A55007200252D9F /* PostMutesUsersCreateRequestV1.swift */; };
+		2515C7B12A55007200252D9F /* GetMutesUsersIDsRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6912A55007200252D9F /* GetMutesUsersIDsRequestV1.swift */; };
+		2515C7B22A55007300252D9F /* GetMutesUsersListRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6922A55007200252D9F /* GetMutesUsersListRequestV1.swift */; };
+		2515C7B32A55007300252D9F /* GetBlocksListRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6932A55007200252D9F /* GetBlocksListRequestV1.swift */; };
+		2515C7B42A55007300252D9F /* PostBlocksDestroyRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6942A55007200252D9F /* PostBlocksDestroyRequestV1.swift */; };
+		2515C7B52A55007300252D9F /* PostUsersReportSpamRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6952A55007200252D9F /* PostUsersReportSpamRequestV1.swift */; };
+		2515C7B62A55007300252D9F /* BlockAndMuteAPIv1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6962A55007200252D9F /* BlockAndMuteAPIv1.swift */; };
+		2515C7B72A55007300252D9F /* PostUnFavoriteRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6992A55007200252D9F /* PostUnFavoriteRequestV1.swift */; };
+		2515C7B82A55007300252D9F /* PostFavoriteRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C69A2A55007200252D9F /* PostFavoriteRequestV1.swift */; };
+		2515C7B92A55007300252D9F /* GetFavoritesRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C69B2A55007200252D9F /* GetFavoritesRequestV1.swift */; };
+		2515C7BA2A55007300252D9F /* FavoriteAPIv1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C69C2A55007200252D9F /* FavoriteAPIv1.swift */; };
+		2515C7BB2A55007300252D9F /* FriendshipsAPIv1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C69E2A55007200252D9F /* FriendshipsAPIv1.swift */; };
+		2515C7BC2A55007300252D9F /* GetFriendsIDsRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6A02A55007200252D9F /* GetFriendsIDsRequestV1.swift */; };
+		2515C7BD2A55007300252D9F /* PostFriendshipsUpdateRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6A12A55007200252D9F /* PostFriendshipsUpdateRequestV1.swift */; };
+		2515C7BE2A55007300252D9F /* GetFriendshipsNoRetweetsIDsRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6A22A55007200252D9F /* GetFriendshipsNoRetweetsIDsRequestV1.swift */; };
+		2515C7BF2A55007300252D9F /* PostFriendshipsDestroyRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6A32A55007200252D9F /* PostFriendshipsDestroyRequestV1.swift */; };
+		2515C7C02A55007300252D9F /* GetFriendshipsIncomingRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6A42A55007200252D9F /* GetFriendshipsIncomingRequestV1.swift */; };
+		2515C7C12A55007300252D9F /* GetFriendshipsOutgoingRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6A52A55007200252D9F /* GetFriendshipsOutgoingRequestV1.swift */; };
+		2515C7C22A55007300252D9F /* GetFriendshipsShowRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6A62A55007200252D9F /* GetFriendshipsShowRequestV1.swift */; };
+		2515C7C32A55007300252D9F /* GetFollowersIDsRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6A72A55007200252D9F /* GetFollowersIDsRequestV1.swift */; };
+		2515C7C42A55007300252D9F /* GetFriendsListRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6A82A55007200252D9F /* GetFriendsListRequestV1.swift */; };
+		2515C7C52A55007300252D9F /* GetFollowersListRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6A92A55007200252D9F /* GetFollowersListRequestV1.swift */; };
+		2515C7C62A55007300252D9F /* GetFriendshipsLookupRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6AA2A55007200252D9F /* GetFriendshipsLookupRequestV1.swift */; };
+		2515C7C72A55007300252D9F /* PostFriendshipsCreateRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6AB2A55007200252D9F /* PostFriendshipsCreateRequestV1.swift */; };
+		2515C7C82A55007300252D9F /* TimelineAPIv1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6AD2A55007200252D9F /* TimelineAPIv1.swift */; };
+		2515C7C92A55007300252D9F /* GetStatusesMentionsTimelineRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6AF2A55007200252D9F /* GetStatusesMentionsTimelineRequestV1.swift */; };
+		2515C7CA2A55007300252D9F /* GetStatusesHomeTimelineRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6B02A55007200252D9F /* GetStatusesHomeTimelineRequestV1.swift */; };
+		2515C7CB2A55007300252D9F /* GetStatusesUserTimelineRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6B12A55007200252D9F /* GetStatusesUserTimelineRequestV1.swift */; };
+		2515C7CC2A55007300252D9F /* PostSavedSearchesDestroyRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6B42A55007200252D9F /* PostSavedSearchesDestroyRequestV1.swift */; };
+		2515C7CD2A55007300252D9F /* PostSavedSearchesCreateRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6B52A55007200252D9F /* PostSavedSearchesCreateRequestV1.swift */; };
+		2515C7CE2A55007300252D9F /* GetSearchTweetsRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6B62A55007200252D9F /* GetSearchTweetsRequestV1.swift */; };
+		2515C7CF2A55007300252D9F /* GetSavedSearchesListRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6B72A55007200252D9F /* GetSavedSearchesListRequestV1.swift */; };
+		2515C7D02A55007300252D9F /* SearchAPIv1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6B82A55007200252D9F /* SearchAPIv1.swift */; };
+		2515C7D12A55007300252D9F /* ListAPIv1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6BA2A55007200252D9F /* ListAPIv1.swift */; };
+		2515C7D22A55007300252D9F /* PostListsDestroyRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6BC2A55007200252D9F /* PostListsDestroyRequestV1.swift */; };
+		2515C7D32A55007300252D9F /* PostListsCreateRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6BD2A55007200252D9F /* PostListsCreateRequestV1.swift */; };
+		2515C7D42A55007300252D9F /* GetListsOwnershipsRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6BE2A55007200252D9F /* GetListsOwnershipsRequestV1.swift */; };
+		2515C7D52A55007300252D9F /* PostListsSubscribersCreateRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6BF2A55007200252D9F /* PostListsSubscribersCreateRequestV1.swift */; };
+		2515C7D62A55007300252D9F /* PostListsMembersDestroyAllRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6C02A55007200252D9F /* PostListsMembersDestroyAllRequestV1.swift */; };
+		2515C7D72A55007300252D9F /* GetListsListRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6C12A55007200252D9F /* GetListsListRequestV1.swift */; };
+		2515C7D82A55007300252D9F /* PostListsSubscribersDestroyRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6C22A55007200252D9F /* PostListsSubscribersDestroyRequestV1.swift */; };
+		2515C7D92A55007300252D9F /* GetListsMembersShowRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6C32A55007200252D9F /* GetListsMembersShowRequestV1.swift */; };
+		2515C7DA2A55007300252D9F /* GetListsShowRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6C42A55007200252D9F /* GetListsShowRequestV1.swift */; };
+		2515C7DB2A55007300252D9F /* PostListsMembersDestroyRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6C52A55007200252D9F /* PostListsMembersDestroyRequestV1.swift */; };
+		2515C7DC2A55007300252D9F /* GetListsSubscribersShowRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6C62A55007200252D9F /* GetListsSubscribersShowRequestV1.swift */; };
+		2515C7DD2A55007300252D9F /* GetListsMembersRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6C72A55007200252D9F /* GetListsMembersRequestV1.swift */; };
+		2515C7DE2A55007300252D9F /* GetListsMembershipsRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6C82A55007200252D9F /* GetListsMembershipsRequestV1.swift */; };
+		2515C7DF2A55007300252D9F /* GetListsStatusesRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6C92A55007200252D9F /* GetListsStatusesRequestV1.swift */; };
+		2515C7E02A55007300252D9F /* PostListsMembersCreateAllRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6CA2A55007200252D9F /* PostListsMembersCreateAllRequestV1.swift */; };
+		2515C7E12A55007300252D9F /* PostListsUpdateRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6CB2A55007200252D9F /* PostListsUpdateRequestV1.swift */; };
+		2515C7E22A55007300252D9F /* PostListsMembersCreateRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6CC2A55007200252D9F /* PostListsMembersCreateRequestV1.swift */; };
+		2515C7E32A55007300252D9F /* GetListsSubscribersRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6CD2A55007200252D9F /* GetListsSubscribersRequestV1.swift */; };
+		2515C7E42A55007300252D9F /* GetListsSubscriptionsRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6CE2A55007200252D9F /* GetListsSubscriptionsRequestV1.swift */; };
+		2515C7E52A55007300252D9F /* GetUsersProfileBannerRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6D12A55007200252D9F /* GetUsersProfileBannerRequestV1.swift */; };
+		2515C7E62A55007300252D9F /* GetUsersSearchRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6D22A55007200252D9F /* GetUsersSearchRequestV1.swift */; };
+		2515C7E72A55007300252D9F /* GetUsersLookupRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6D32A55007200252D9F /* GetUsersLookupRequestV1.swift */; };
+		2515C7E82A55007300252D9F /* GetUsersShowRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6D42A55007200252D9F /* GetUsersShowRequestV1.swift */; };
+		2515C7E92A55007300252D9F /* UserAPIv1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6D52A55007200252D9F /* UserAPIv1.swift */; };
+		2515C7EA2A55007300252D9F /* GetApplicationRateLimitStatusRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6D82A55007200252D9F /* GetApplicationRateLimitStatusRequestV1.swift */; };
+		2515C7EB2A55007300252D9F /* ApplicationAPIv1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6D92A55007200252D9F /* ApplicationAPIv1.swift */; };
+		2515C7EC2A55007300252D9F /* AccountAPIv1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6DB2A55007200252D9F /* AccountAPIv1.swift */; };
+		2515C7ED2A55007300252D9F /* PostAccountUpdateProfileRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6DD2A55007200252D9F /* PostAccountUpdateProfileRequestV1.swift */; };
+		2515C7EE2A55007300252D9F /* PostAccountSettingsRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6DE2A55007200252D9F /* PostAccountSettingsRequestV1.swift */; };
+		2515C7EF2A55007300252D9F /* GetAccountSettingsRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6DF2A55007200252D9F /* GetAccountSettingsRequestV1.swift */; };
+		2515C7F02A55007300252D9F /* GetAccountVerifyCredentialsRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6E02A55007200252D9F /* GetAccountVerifyCredentialsRequestV1.swift */; };
+		2515C7F12A55007300252D9F /* PostAccountRemoveProfileBannerRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6E12A55007200252D9F /* PostAccountRemoveProfileBannerRequestV1.swift */; };
+		2515C7F22A55007300252D9F /* PostAccountUpdateProfileImageRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6E22A55007200252D9F /* PostAccountUpdateProfileImageRequestV1.swift */; };
+		2515C7F32A55007300252D9F /* PostAccountUpdateProfileBannerRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6E32A55007200252D9F /* PostAccountUpdateProfileBannerRequestV1.swift */; };
+		2515C7F42A55007300252D9F /* GetHelpLanguagesRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6E62A55007200252D9F /* GetHelpLanguagesRequestV1.swift */; };
+		2515C7F52A55007300252D9F /* HelpAPIv1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6E72A55007200252D9F /* HelpAPIv1.swift */; };
+		2515C7F62A55007300252D9F /* UploadMediaInitRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6EA2A55007200252D9F /* UploadMediaInitRequestV1.swift */; };
+		2515C7F72A55007300252D9F /* UploadMediaAppendRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6EB2A55007200252D9F /* UploadMediaAppendRequestV1.swift */; };
+		2515C7F82A55007300252D9F /* PostMediaMetadataCreateRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6EC2A55007200252D9F /* PostMediaMetadataCreateRequestV1.swift */; };
+		2515C7F92A55007300252D9F /* PostMediaSubtitlesDeleteRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6ED2A55007200252D9F /* PostMediaSubtitlesDeleteRequestV1.swift */; };
+		2515C7FA2A55007300252D9F /* UploadMediaFinalizeRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6EE2A55007200252D9F /* UploadMediaFinalizeRequestV1.swift */; };
+		2515C7FB2A55007300252D9F /* PostMediaSubtitlesCreateRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6EF2A55007200252D9F /* PostMediaSubtitlesCreateRequestV1.swift */; };
+		2515C7FC2A55007300252D9F /* GetUploadMediaStatusRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6F02A55007200252D9F /* GetUploadMediaStatusRequestV1.swift */; };
+		2515C7FD2A55007300252D9F /* MediaAPIv1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6F12A55007200252D9F /* MediaAPIv1.swift */; };
+		2515C7FE2A55007300252D9F /* UploadMediaEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6F22A55007200252D9F /* UploadMediaEntity.swift */; };
+		2515C7FF2A55007300252D9F /* TwitterOAuth2BearerToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6F42A55007200252D9F /* TwitterOAuth2BearerToken.swift */; };
+		2515C8002A55007300252D9F /* AuthAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6F52A55007200252D9F /* AuthAPI.swift */; };
+		2515C8012A55007300252D9F /* TwitterOAuth2AccessToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6F62A55007200252D9F /* TwitterOAuth2AccessToken.swift */; };
+		2515C8022A55007300252D9F /* OAuth10aAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6F72A55007200252D9F /* OAuth10aAPI.swift */; };
+		2515C8032A55007300252D9F /* PostOAuth2TokenRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6F92A55007200252D9F /* PostOAuth2TokenRequestV1.swift */; };
+		2515C8042A55007300252D9F /* PostOAuth2RevokeTokenRequestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6FA2A55007200252D9F /* PostOAuth2RevokeTokenRequestV2.swift */; };
+		2515C8052A55007300252D9F /* GetOAuthAuthenticateRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6FB2A55007200252D9F /* GetOAuthAuthenticateRequestV1.swift */; };
+		2515C8062A55007300252D9F /* GetOAuth2AuthorizeRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6FC2A55007200252D9F /* GetOAuth2AuthorizeRequestV1.swift */; };
+		2515C8072A55007300252D9F /* PostOAuth2InvalidateTokenRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6FD2A55007200252D9F /* PostOAuth2InvalidateTokenRequestV1.swift */; };
+		2515C8082A55007300252D9F /* PostOAuth2AccessTokenRequestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6FE2A55007200252D9F /* PostOAuth2AccessTokenRequestV2.swift */; };
+		2515C8092A55007300252D9F /* PostOAuthInvalidateTokenRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C6FF2A55007200252D9F /* PostOAuthInvalidateTokenRequestV1.swift */; };
+		2515C80A2A55007300252D9F /* GetOAuthAuthorizeRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C7002A55007200252D9F /* GetOAuthAuthorizeRequestV1.swift */; };
+		2515C80B2A55007300252D9F /* PostOAuthRequestTokenRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C7012A55007200252D9F /* PostOAuthRequestTokenRequestV1.swift */; };
+		2515C80C2A55007300252D9F /* PostOAuthAccessTokenRequestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C7022A55007200252D9F /* PostOAuthAccessTokenRequestV1.swift */; };
+		2515C80D2A55007300252D9F /* PostOAuth2RefreshTokenRequestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C7032A55007200252D9F /* PostOAuth2RefreshTokenRequestV2.swift */; };
+		2515C80E2A55007300252D9F /* OAuth20API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C7042A55007200252D9F /* OAuth20API.swift */; };
+		2515C80F2A55007300252D9F /* TwitterOAuthTokenV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C7052A55007200252D9F /* TwitterOAuthTokenV1.swift */; };
+		2515C8102A55007300252D9F /* TwitterOAuthAccessTokenV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C7062A55007200252D9F /* TwitterOAuthAccessTokenV1.swift */; };
+		2515C8112A55007300252D9F /* TwitterRateLimit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C7072A55007200252D9F /* TwitterRateLimit.swift */; };
+		2515C8122A55007300252D9F /* TwitterAPIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C7082A55007200252D9F /* TwitterAPIResponse.swift */; };
+		2515C8132A55007300252D9F /* TwitterAPIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C7092A55007200252D9F /* TwitterAPIKit.swift */; };
+		2515C8142A55007300252D9F /* TwitterAPISession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515C70A2A55007200252D9F /* TwitterAPISession.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2515C5A72A54FF4900252D9F /* TwitterAPIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TwitterAPIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2515C5BB2A55007200252D9F /* TwitterAPI+Flat.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TwitterAPI+Flat.generated.swift"; sourceTree = "<group>"; };
+		2515C5BE2A55007200252D9F /* TwitterDirectMessageEventTypeV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterDirectMessageEventTypeV2.swift; sourceTree = "<group>"; };
+		2515C5C02A55007200252D9F /* GetDmEventsRequestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetDmEventsRequestV2.swift; sourceTree = "<group>"; };
+		2515C5C12A55007200252D9F /* GetDmConversationsWithParticipantIdDmEventsRequestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetDmConversationsWithParticipantIdDmEventsRequestV2.swift; sourceTree = "<group>"; };
+		2515C5C22A55007200252D9F /* PostDmConversationByIdRequestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostDmConversationByIdRequestV2.swift; sourceTree = "<group>"; };
+		2515C5C32A55007200252D9F /* PostDmConversationRequestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostDmConversationRequestV2.swift; sourceTree = "<group>"; };
+		2515C5C42A55007200252D9F /* GetDmConversationsIdDmEventsRequestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetDmConversationsIdDmEventsRequestV2.swift; sourceTree = "<group>"; };
+		2515C5C52A55007200252D9F /* PostDmConversationWithUserRequestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostDmConversationWithUserRequestV2.swift; sourceTree = "<group>"; };
+		2515C5C62A55007200252D9F /* DirectMessageAPIv2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectMessageAPIv2.swift; sourceTree = "<group>"; };
+		2515C5C92A55007200252D9F /* GetTweetsRequestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetTweetsRequestV2.swift; sourceTree = "<group>"; };
+		2515C5CA2A55007200252D9F /* PostTweetsRequestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTweetsRequestV2.swift; sourceTree = "<group>"; };
+		2515C5CB2A55007200252D9F /* GetTweetRequestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetTweetRequestV2.swift; sourceTree = "<group>"; };
+		2515C5CC2A55007200252D9F /* PutTweetsHiddenRequestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PutTweetsHiddenRequestV2.swift; sourceTree = "<group>"; };
+		2515C5CD2A55007200252D9F /* DeleteTweetRequestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeleteTweetRequestV2.swift; sourceTree = "<group>"; };
+		2515C5CE2A55007200252D9F /* GetTweetsQuoteTweetsRequestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetTweetsQuoteTweetsRequestV2.swift; sourceTree = "<group>"; };
+		2515C5CF2A55007200252D9F /* TweetAPIv2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetAPIv2.swift; sourceTree = "<group>"; };
+		2515C5D12A55007200252D9F /* RetweetAPIv2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RetweetAPIv2.swift; sourceTree = "<group>"; };
+		2515C5D32A55007200252D9F /* GetTweetsRetweetedByRequestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetTweetsRetweetedByRequestV2.swift; sourceTree = "<group>"; };
+		2515C5D42A55007200252D9F /* PostUsersRetweetsRequestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostUsersRetweetsRequestV2.swift; sourceTree = "<group>"; };
+		2515C5D52A55007200252D9F /* DeleteUsersRetweetsRequestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeleteUsersRetweetsRequestV2.swift; sourceTree = "<group>"; };
+		2515C5D82A55007200252D9F /* GetTweetsLikingUsersRequestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetTweetsLikingUsersRequestV2.swift; sourceTree = "<group>"; };
+		2515C5D92A55007200252D9F /* DeleteUsersLikesRequestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeleteUsersLikesRequestV2.swift; sourceTree = "<group>"; };
+		2515C5DA2A55007200252D9F /* PostUsersLikesRequestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostUsersLikesRequestV2.swift; sourceTree = "<group>"; };
+		2515C5DB2A55007200252D9F /* GetUsersLikedTweetsRequestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetUsersLikedTweetsRequestV2.swift; sourceTree = "<group>"; };
+		2515C5DC2A55007200252D9F /* LikeAPIv2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LikeAPIv2.swift; sourceTree = "<group>"; };
+		2515C5DD2A55007200252D9F /* ExpansionsV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpansionsV2.swift; sourceTree = "<group>"; };
+		2515C5E02A55007200252D9F /* GetTweetsSearchStreamRulesRequestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetTweetsSearchStreamRulesRequestV2.swift; sourceTree = "<group>"; };
+		2515C5E12A55007200252D9F /* GetTweetsSearchStreamRequestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetTweetsSearchStreamRequestV2.swift; sourceTree = "<group>"; };
+		2515C5E22A55007200252D9F /* PostTweetsSearchStreamRulesRequestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTweetsSearchStreamRulesRequestV2.swift; sourceTree = "<group>"; };
+		2515C5E32A55007200252D9F /* GetTweetsSampleStreamRequestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetTweetsSampleStreamRequestV2.swift; sourceTree = "<group>"; };
+		2515C5E42A55007200252D9F /* StreamAPIv2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamAPIv2.swift; sourceTree = "<group>"; };
+		2515C5E72A55007200252D9F /* GetSpacesTweetsRequestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetSpacesTweetsRequestV2.swift; sourceTree = "<group>"; };
+		2515C5E82A55007200252D9F /* GetSpacesSearchRequestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetSpacesSearchRequestV2.swift; sourceTree = "<group>"; };
+		2515C5E92A55007200252D9F /* GetSpaceRequestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetSpaceRequestV2.swift; sourceTree = "<group>"; };
+		2515C5EA2A55007200252D9F /* GetSpacesByCreatorIDsRequestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetSpacesByCreatorIDsRequestV2.swift; sourceTree = "<group>"; };
+		2515C5EB2A55007200252D9F /* GetSpacesRequestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetSpacesRequestV2.swift; sourceTree = "<group>"; };
+		2515C5EC2A55007200252D9F /* GetSpacesBuyersRequestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetSpacesBuyersRequestV2.swift; sourceTree = "<group>"; };
+		2515C5ED2A55007200252D9F /* SpacesAPIv2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpacesAPIv2.swift; sourceTree = "<group>"; };
+		2515C5F02A55007200252D9F /* DeleteUsersMutingRequestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeleteUsersMutingRequestV2.swift; sourceTree = "<group>"; };
+		2515C5F12A55007200252D9F /* GetUsersBlockingRequestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetUsersBlockingRequestV2.swift; sourceTree = "<group>"; };
+		2515C5F22A55007200252D9F /* PostUsersMutingRequestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostUsersMutingRequestV2.swift; sourceTree = "<group>"; };
+		2515C5F32A55007200252D9F /* GetUsersMutingRequestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetUsersMutingRequestV2.swift; sourceTree = "<group>"; };
+		2515C5F42A55007200252D9F /* PostUsersBlockingRequestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostUsersBlockingRequestV2.swift; sourceTree = "<group>"; };
+		2515C5F52A55007200252D9F /* DeleteUsersBlockingRequestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeleteUsersBlockingRequestV2.swift; sourceTree = "<group>"; };
+		2515C5F62A55007200252D9F /* BlockAndMuteAPIv2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockAndMuteAPIv2.swift; sourceTree = "<group>"; };
+		2515C5F72A55007200252D9F /* FieldsV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FieldsV2.swift; sourceTree = "<group>"; };
+		2515C5F92A55007200252D9F /* FriendshipsAPIv2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendshipsAPIv2.swift; sourceTree = "<group>"; };
+		2515C5FB2A55007200252D9F /* GetUsersFollowingRequestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetUsersFollowingRequestV2.swift; sourceTree = "<group>"; };
+		2515C5FC2A55007200252D9F /* GetUsersFollowersRequestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetUsersFollowersRequestV2.swift; sourceTree = "<group>"; };
+		2515C5FD2A55007200252D9F /* PostUsersFollowingRequestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostUsersFollowingRequestV2.swift; sourceTree = "<group>"; };
+		2515C5FE2A55007200252D9F /* DeleteUsersFollowingRequestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeleteUsersFollowingRequestV2.swift; sourceTree = "<group>"; };
+		2515C6012A55007200252D9F /* GetComplianceJobRequestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetComplianceJobRequestV2.swift; sourceTree = "<group>"; };
+		2515C6022A55007200252D9F /* PostComplianceJobsRequestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostComplianceJobsRequestV2.swift; sourceTree = "<group>"; };
+		2515C6032A55007200252D9F /* GetComplianceJobsRequestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetComplianceJobsRequestV2.swift; sourceTree = "<group>"; };
+		2515C6042A55007200252D9F /* TwitterComplianceJobTypeV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterComplianceJobTypeV2.swift; sourceTree = "<group>"; };
+		2515C6052A55007200252D9F /* ComplianceAPIv2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComplianceAPIv2.swift; sourceTree = "<group>"; };
+		2515C6062A55007200252D9F /* TwitterAPIv2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterAPIv2.swift; sourceTree = "<group>"; };
+		2515C6092A55007200252D9F /* GetTweetsSearchAllRequestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetTweetsSearchAllRequestV2.swift; sourceTree = "<group>"; };
+		2515C60A2A55007200252D9F /* GetTweetsSearchRecentRequestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetTweetsSearchRecentRequestV2.swift; sourceTree = "<group>"; };
+		2515C60B2A55007200252D9F /* TwitterSearchTweetsSortOrderV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterSearchTweetsSortOrderV2.swift; sourceTree = "<group>"; };
+		2515C60C2A55007200252D9F /* SearchAPIv2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchAPIv2.swift; sourceTree = "<group>"; };
+		2515C60E2A55007200252D9F /* BookmarksAPIv2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookmarksAPIv2.swift; sourceTree = "<group>"; };
+		2515C6102A55007200252D9F /* PostUsersBookmarksRequestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostUsersBookmarksRequestV2.swift; sourceTree = "<group>"; };
+		2515C6112A55007200252D9F /* DeleteUsersBookmarksRequestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeleteUsersBookmarksRequestV2.swift; sourceTree = "<group>"; };
+		2515C6122A55007200252D9F /* GetUsersBookmarksRequestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetUsersBookmarksRequestV2.swift; sourceTree = "<group>"; };
+		2515C6142A55007200252D9F /* TweetCountAPIv2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetCountAPIv2.swift; sourceTree = "<group>"; };
+		2515C6162A55007200252D9F /* GetTweetsCountsRecentRequestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetTweetsCountsRecentRequestV2.swift; sourceTree = "<group>"; };
+		2515C6172A55007200252D9F /* TweetCountGranularity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetCountGranularity.swift; sourceTree = "<group>"; };
+		2515C6182A55007200252D9F /* GetTweetsCountsAllRequestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetTweetsCountsAllRequestV2.swift; sourceTree = "<group>"; };
+		2515C61A2A55007200252D9F /* ListAPIv2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListAPIv2.swift; sourceTree = "<group>"; };
+		2515C61C2A55007200252D9F /* PutListRequestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PutListRequestV2.swift; sourceTree = "<group>"; };
+		2515C61D2A55007200252D9F /* DeleteListRequestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeleteListRequestV2.swift; sourceTree = "<group>"; };
+		2515C61E2A55007200252D9F /* GetUsersListMembershipsRequestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetUsersListMembershipsRequestV2.swift; sourceTree = "<group>"; };
+		2515C61F2A55007200252D9F /* PostListsMembersRequestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostListsMembersRequestV2.swift; sourceTree = "<group>"; };
+		2515C6202A55007200252D9F /* DeleteUsersFollowedListsRequestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeleteUsersFollowedListsRequestV2.swift; sourceTree = "<group>"; };
+		2515C6212A55007200252D9F /* PostUsersFollowedListsRequestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostUsersFollowedListsRequestV2.swift; sourceTree = "<group>"; };
+		2515C6222A55007200252D9F /* DeleteUsersPinnedListsRequestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeleteUsersPinnedListsRequestV2.swift; sourceTree = "<group>"; };
+		2515C6232A55007200252D9F /* DeleteListsMembersRequestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeleteListsMembersRequestV2.swift; sourceTree = "<group>"; };
+		2515C6242A55007200252D9F /* GetListsTweetsRequestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetListsTweetsRequestV2.swift; sourceTree = "<group>"; };
+		2515C6252A55007200252D9F /* PostUsersPinnedListsRequestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostUsersPinnedListsRequestV2.swift; sourceTree = "<group>"; };
+		2515C6262A55007200252D9F /* GetUsersOwnedListsRequestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetUsersOwnedListsRequestV2.swift; sourceTree = "<group>"; };
+		2515C6272A55007200252D9F /* PostListsRequestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostListsRequestV2.swift; sourceTree = "<group>"; };
+		2515C6282A55007200252D9F /* GetListRequestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetListRequestV2.swift; sourceTree = "<group>"; };
+		2515C6292A55007200252D9F /* GetUsersPinnedListsRequestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetUsersPinnedListsRequestV2.swift; sourceTree = "<group>"; };
+		2515C62A2A55007200252D9F /* GetListsFollowersRequestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetListsFollowersRequestV2.swift; sourceTree = "<group>"; };
+		2515C62B2A55007200252D9F /* GetListsMembersRequestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetListsMembersRequestV2.swift; sourceTree = "<group>"; };
+		2515C62C2A55007200252D9F /* GetUsersFollowedListsRequestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetUsersFollowedListsRequestV2.swift; sourceTree = "<group>"; };
+		2515C62F2A55007200252D9F /* GetUsersByRequestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetUsersByRequestV2.swift; sourceTree = "<group>"; };
+		2515C6302A55007200252D9F /* GetUserRequestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetUserRequestV2.swift; sourceTree = "<group>"; };
+		2515C6312A55007200252D9F /* GetUsersRequestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetUsersRequestV2.swift; sourceTree = "<group>"; };
+		2515C6322A55007200252D9F /* GetUsersByUsernameRequestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetUsersByUsernameRequestV2.swift; sourceTree = "<group>"; };
+		2515C6332A55007200252D9F /* GetUsersMeRequestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetUsersMeRequestV2.swift; sourceTree = "<group>"; };
+		2515C6342A55007200252D9F /* UserAPIv2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAPIv2.swift; sourceTree = "<group>"; };
+		2515C6362A55007200252D9F /* TimelineAPIv2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineAPIv2.swift; sourceTree = "<group>"; };
+		2515C6382A55007200252D9F /* GetUsersTimelinesReverseChronologicalRequestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetUsersTimelinesReverseChronologicalRequestV2.swift; sourceTree = "<group>"; };
+		2515C6392A55007200252D9F /* GetUsersMentionsRequestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetUsersMentionsRequestV2.swift; sourceTree = "<group>"; };
+		2515C63A2A55007200252D9F /* GetUsersTweetsRequestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetUsersTweetsRequestV2.swift; sourceTree = "<group>"; };
+		2515C63B2A55007200252D9F /* TwitterTimelineExcludeV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterTimelineExcludeV2.swift; sourceTree = "<group>"; };
+		2515C63C2A55007200252D9F /* TwitterAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterAPIClient.swift; sourceTree = "<group>"; };
+		2515C63D2A55007200252D9F /* TwitterAPIErrorResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterAPIErrorResponse.swift; sourceTree = "<group>"; };
+		2515C63E2A55007200252D9F /* TwitterAPISessionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterAPISessionDelegate.swift; sourceTree = "<group>"; };
+		2515C63F2A55007200252D9F /* TwitterAPIRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterAPIRequest.swift; sourceTree = "<group>"; };
+		2515C6412A55007200252D9F /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		2515C6422A55007200252D9F /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		2515C6432A55007200252D9F /* Concurrency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Concurrency.swift; sourceTree = "<group>"; };
+		2515C6442A55007200252D9F /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		2515C6452A55007200252D9F /* DispatchQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DispatchQueue.swift; sourceTree = "<group>"; };
+		2515C6462A55007200252D9F /* Dictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
+		2515C6472A55007200252D9F /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		2515C6482A55007200252D9F /* TwitterAuthenticationMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterAuthenticationMethod.swift; sourceTree = "<group>"; };
+		2515C6492A55007200252D9F /* OAuthHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuthHelper.swift; sourceTree = "<group>"; };
+		2515C64A2A55007200252D9F /* TwitterAPIKitError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterAPIKitError.swift; sourceTree = "<group>"; };
+		2515C64C2A55007200252D9F /* TwitterAPIFailedTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterAPIFailedTask.swift; sourceTree = "<group>"; };
+		2515C64D2A55007200252D9F /* TwitterAPISessionDelegatedJSONTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterAPISessionDelegatedJSONTask.swift; sourceTree = "<group>"; };
+		2515C64E2A55007200252D9F /* TwitterAPISessionJSONTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterAPISessionJSONTask.swift; sourceTree = "<group>"; };
+		2515C64F2A55007200252D9F /* TwitterAPISessionSpecializedTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterAPISessionSpecializedTask.swift; sourceTree = "<group>"; };
+		2515C6502A55007200252D9F /* TwitterAPISessionStreamTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterAPISessionStreamTask.swift; sourceTree = "<group>"; };
+		2515C6512A55007200252D9F /* TwitterAPISessionDelegatedStreamTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterAPISessionDelegatedStreamTask.swift; sourceTree = "<group>"; };
+		2515C6522A55007200252D9F /* TwitterAPISessionDataTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterAPISessionDataTask.swift; sourceTree = "<group>"; };
+		2515C6532A55007200252D9F /* TwitterAPISessionTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterAPISessionTask.swift; sourceTree = "<group>"; };
+		2515C6552A55007200252D9F /* TwitterUserIdentifierV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterUserIdentifierV1.swift; sourceTree = "<group>"; };
+		2515C6582A55007200252D9F /* DeleteDirectMessageRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeleteDirectMessageRequestV1.swift; sourceTree = "<group>"; };
+		2515C6592A55007200252D9F /* PostDirectMessagesMarkReadRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostDirectMessagesMarkReadRequestV1.swift; sourceTree = "<group>"; };
+		2515C65A2A55007200252D9F /* PostDirectMessageRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostDirectMessageRequestV1.swift; sourceTree = "<group>"; };
+		2515C65B2A55007200252D9F /* GetDirectMessageRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetDirectMessageRequestV1.swift; sourceTree = "<group>"; };
+		2515C65C2A55007200252D9F /* PostDirectMessagesIndicateTypingRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostDirectMessagesIndicateTypingRequestV1.swift; sourceTree = "<group>"; };
+		2515C65D2A55007200252D9F /* GetDirectMessageListRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetDirectMessageListRequestV1.swift; sourceTree = "<group>"; };
+		2515C65E2A55007200252D9F /* DirectMessageAPIv1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectMessageAPIv1.swift; sourceTree = "<group>"; };
+		2515C6612A55007200252D9F /* PostStatusesDestroyRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostStatusesDestroyRequestV1.swift; sourceTree = "<group>"; };
+		2515C6622A55007200252D9F /* PostUpdateStatusRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostUpdateStatusRequestV1.swift; sourceTree = "<group>"; };
+		2515C6632A55007200252D9F /* GetStatusesLookupRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetStatusesLookupRequestV1.swift; sourceTree = "<group>"; };
+		2515C6642A55007200252D9F /* GetStatusesShowRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetStatusesShowRequestV1.swift; sourceTree = "<group>"; };
+		2515C6652A55007200252D9F /* TweetAPIv1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetAPIv1.swift; sourceTree = "<group>"; };
+		2515C6672A55007200252D9F /* RetweetAPIv1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RetweetAPIv1.swift; sourceTree = "<group>"; };
+		2515C6692A55007200252D9F /* PostRetweetRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostRetweetRequestV1.swift; sourceTree = "<group>"; };
+		2515C66A2A55007200252D9F /* GetRetweetersRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetRetweetersRequestV1.swift; sourceTree = "<group>"; };
+		2515C66B2A55007200252D9F /* GetRetweetsOfMeRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetRetweetsOfMeRequestV1.swift; sourceTree = "<group>"; };
+		2515C66C2A55007200252D9F /* PostUnRetweetRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostUnRetweetRequestV1.swift; sourceTree = "<group>"; };
+		2515C66D2A55007200252D9F /* GetRetweetsRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetRetweetsRequestV1.swift; sourceTree = "<group>"; };
+		2515C66E2A55007200252D9F /* TwitterLocations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterLocations.swift; sourceTree = "<group>"; };
+		2515C6712A55007200252D9F /* PostCollectionsEntriesAddRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCollectionsEntriesAddRequestV1.swift; sourceTree = "<group>"; };
+		2515C6722A55007200252D9F /* PostCollectionsDestroyRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCollectionsDestroyRequestV1.swift; sourceTree = "<group>"; };
+		2515C6732A55007200252D9F /* PostCollectionsCreateRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCollectionsCreateRequestV1.swift; sourceTree = "<group>"; };
+		2515C6742A55007200252D9F /* GetCollectionsListRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetCollectionsListRequestV1.swift; sourceTree = "<group>"; };
+		2515C6752A55007200252D9F /* PostCollectionsUpdateRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCollectionsUpdateRequestV1.swift; sourceTree = "<group>"; };
+		2515C6762A55007200252D9F /* GetCollectionsEntriesRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetCollectionsEntriesRequestV1.swift; sourceTree = "<group>"; };
+		2515C6772A55007200252D9F /* PostCollectionsEntriesMoveRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCollectionsEntriesMoveRequestV1.swift; sourceTree = "<group>"; };
+		2515C6782A55007200252D9F /* GetCollectionsShowRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetCollectionsShowRequestV1.swift; sourceTree = "<group>"; };
+		2515C6792A55007200252D9F /* PostCollectionsEntriesRemoveRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCollectionsEntriesRemoveRequestV1.swift; sourceTree = "<group>"; };
+		2515C67A2A55007200252D9F /* PostCollectionsEntriesCurateRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCollectionsEntriesCurateRequestV1.swift; sourceTree = "<group>"; };
+		2515C67B2A55007200252D9F /* CollectionAPIv1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionAPIv1.swift; sourceTree = "<group>"; };
+		2515C67C2A55007200252D9F /* TwitterAPIv1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterAPIv1.swift; sourceTree = "<group>"; };
+		2515C67E2A55007200252D9F /* TrendAPIv1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrendAPIv1.swift; sourceTree = "<group>"; };
+		2515C6802A55007200252D9F /* GetTrendsPlaceRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetTrendsPlaceRequestV1.swift; sourceTree = "<group>"; };
+		2515C6812A55007200252D9F /* GetTrendsClosestRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetTrendsClosestRequestV1.swift; sourceTree = "<group>"; };
+		2515C6822A55007200252D9F /* GetTrendsAvailableRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetTrendsAvailableRequestV1.swift; sourceTree = "<group>"; };
+		2515C6832A55007200252D9F /* TwitterListIdentifierV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterListIdentifierV1.swift; sourceTree = "<group>"; };
+		2515C6842A55007200252D9F /* TwitterListModeV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterListModeV1.swift; sourceTree = "<group>"; };
+		2515C6872A55007200252D9F /* GetGeoReverseGeocodeRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetGeoReverseGeocodeRequestV1.swift; sourceTree = "<group>"; };
+		2515C6882A55007200252D9F /* GetGeoPlaceIDRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetGeoPlaceIDRequestV1.swift; sourceTree = "<group>"; };
+		2515C6892A55007200252D9F /* GetGeoSearchRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetGeoSearchRequestV1.swift; sourceTree = "<group>"; };
+		2515C68A2A55007200252D9F /* GeoAPIv1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeoAPIv1.swift; sourceTree = "<group>"; };
+		2515C68D2A55007200252D9F /* PostMutesUsersDestroyRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostMutesUsersDestroyRequestV1.swift; sourceTree = "<group>"; };
+		2515C68E2A55007200252D9F /* GetBlocksIDsRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetBlocksIDsRequestV1.swift; sourceTree = "<group>"; };
+		2515C68F2A55007200252D9F /* PostBlocksCreateRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostBlocksCreateRequestV1.swift; sourceTree = "<group>"; };
+		2515C6902A55007200252D9F /* PostMutesUsersCreateRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostMutesUsersCreateRequestV1.swift; sourceTree = "<group>"; };
+		2515C6912A55007200252D9F /* GetMutesUsersIDsRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetMutesUsersIDsRequestV1.swift; sourceTree = "<group>"; };
+		2515C6922A55007200252D9F /* GetMutesUsersListRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetMutesUsersListRequestV1.swift; sourceTree = "<group>"; };
+		2515C6932A55007200252D9F /* GetBlocksListRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetBlocksListRequestV1.swift; sourceTree = "<group>"; };
+		2515C6942A55007200252D9F /* PostBlocksDestroyRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostBlocksDestroyRequestV1.swift; sourceTree = "<group>"; };
+		2515C6952A55007200252D9F /* PostUsersReportSpamRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostUsersReportSpamRequestV1.swift; sourceTree = "<group>"; };
+		2515C6962A55007200252D9F /* BlockAndMuteAPIv1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockAndMuteAPIv1.swift; sourceTree = "<group>"; };
+		2515C6992A55007200252D9F /* PostUnFavoriteRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostUnFavoriteRequestV1.swift; sourceTree = "<group>"; };
+		2515C69A2A55007200252D9F /* PostFavoriteRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostFavoriteRequestV1.swift; sourceTree = "<group>"; };
+		2515C69B2A55007200252D9F /* GetFavoritesRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetFavoritesRequestV1.swift; sourceTree = "<group>"; };
+		2515C69C2A55007200252D9F /* FavoriteAPIv1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteAPIv1.swift; sourceTree = "<group>"; };
+		2515C69E2A55007200252D9F /* FriendshipsAPIv1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendshipsAPIv1.swift; sourceTree = "<group>"; };
+		2515C6A02A55007200252D9F /* GetFriendsIDsRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetFriendsIDsRequestV1.swift; sourceTree = "<group>"; };
+		2515C6A12A55007200252D9F /* PostFriendshipsUpdateRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostFriendshipsUpdateRequestV1.swift; sourceTree = "<group>"; };
+		2515C6A22A55007200252D9F /* GetFriendshipsNoRetweetsIDsRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetFriendshipsNoRetweetsIDsRequestV1.swift; sourceTree = "<group>"; };
+		2515C6A32A55007200252D9F /* PostFriendshipsDestroyRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostFriendshipsDestroyRequestV1.swift; sourceTree = "<group>"; };
+		2515C6A42A55007200252D9F /* GetFriendshipsIncomingRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetFriendshipsIncomingRequestV1.swift; sourceTree = "<group>"; };
+		2515C6A52A55007200252D9F /* GetFriendshipsOutgoingRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetFriendshipsOutgoingRequestV1.swift; sourceTree = "<group>"; };
+		2515C6A62A55007200252D9F /* GetFriendshipsShowRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetFriendshipsShowRequestV1.swift; sourceTree = "<group>"; };
+		2515C6A72A55007200252D9F /* GetFollowersIDsRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetFollowersIDsRequestV1.swift; sourceTree = "<group>"; };
+		2515C6A82A55007200252D9F /* GetFriendsListRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetFriendsListRequestV1.swift; sourceTree = "<group>"; };
+		2515C6A92A55007200252D9F /* GetFollowersListRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetFollowersListRequestV1.swift; sourceTree = "<group>"; };
+		2515C6AA2A55007200252D9F /* GetFriendshipsLookupRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetFriendshipsLookupRequestV1.swift; sourceTree = "<group>"; };
+		2515C6AB2A55007200252D9F /* PostFriendshipsCreateRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostFriendshipsCreateRequestV1.swift; sourceTree = "<group>"; };
+		2515C6AD2A55007200252D9F /* TimelineAPIv1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineAPIv1.swift; sourceTree = "<group>"; };
+		2515C6AF2A55007200252D9F /* GetStatusesMentionsTimelineRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetStatusesMentionsTimelineRequestV1.swift; sourceTree = "<group>"; };
+		2515C6B02A55007200252D9F /* GetStatusesHomeTimelineRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetStatusesHomeTimelineRequestV1.swift; sourceTree = "<group>"; };
+		2515C6B12A55007200252D9F /* GetStatusesUserTimelineRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetStatusesUserTimelineRequestV1.swift; sourceTree = "<group>"; };
+		2515C6B42A55007200252D9F /* PostSavedSearchesDestroyRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostSavedSearchesDestroyRequestV1.swift; sourceTree = "<group>"; };
+		2515C6B52A55007200252D9F /* PostSavedSearchesCreateRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostSavedSearchesCreateRequestV1.swift; sourceTree = "<group>"; };
+		2515C6B62A55007200252D9F /* GetSearchTweetsRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetSearchTweetsRequestV1.swift; sourceTree = "<group>"; };
+		2515C6B72A55007200252D9F /* GetSavedSearchesListRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetSavedSearchesListRequestV1.swift; sourceTree = "<group>"; };
+		2515C6B82A55007200252D9F /* SearchAPIv1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchAPIv1.swift; sourceTree = "<group>"; };
+		2515C6BA2A55007200252D9F /* ListAPIv1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListAPIv1.swift; sourceTree = "<group>"; };
+		2515C6BC2A55007200252D9F /* PostListsDestroyRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostListsDestroyRequestV1.swift; sourceTree = "<group>"; };
+		2515C6BD2A55007200252D9F /* PostListsCreateRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostListsCreateRequestV1.swift; sourceTree = "<group>"; };
+		2515C6BE2A55007200252D9F /* GetListsOwnershipsRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetListsOwnershipsRequestV1.swift; sourceTree = "<group>"; };
+		2515C6BF2A55007200252D9F /* PostListsSubscribersCreateRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostListsSubscribersCreateRequestV1.swift; sourceTree = "<group>"; };
+		2515C6C02A55007200252D9F /* PostListsMembersDestroyAllRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostListsMembersDestroyAllRequestV1.swift; sourceTree = "<group>"; };
+		2515C6C12A55007200252D9F /* GetListsListRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetListsListRequestV1.swift; sourceTree = "<group>"; };
+		2515C6C22A55007200252D9F /* PostListsSubscribersDestroyRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostListsSubscribersDestroyRequestV1.swift; sourceTree = "<group>"; };
+		2515C6C32A55007200252D9F /* GetListsMembersShowRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetListsMembersShowRequestV1.swift; sourceTree = "<group>"; };
+		2515C6C42A55007200252D9F /* GetListsShowRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetListsShowRequestV1.swift; sourceTree = "<group>"; };
+		2515C6C52A55007200252D9F /* PostListsMembersDestroyRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostListsMembersDestroyRequestV1.swift; sourceTree = "<group>"; };
+		2515C6C62A55007200252D9F /* GetListsSubscribersShowRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetListsSubscribersShowRequestV1.swift; sourceTree = "<group>"; };
+		2515C6C72A55007200252D9F /* GetListsMembersRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetListsMembersRequestV1.swift; sourceTree = "<group>"; };
+		2515C6C82A55007200252D9F /* GetListsMembershipsRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetListsMembershipsRequestV1.swift; sourceTree = "<group>"; };
+		2515C6C92A55007200252D9F /* GetListsStatusesRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetListsStatusesRequestV1.swift; sourceTree = "<group>"; };
+		2515C6CA2A55007200252D9F /* PostListsMembersCreateAllRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostListsMembersCreateAllRequestV1.swift; sourceTree = "<group>"; };
+		2515C6CB2A55007200252D9F /* PostListsUpdateRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostListsUpdateRequestV1.swift; sourceTree = "<group>"; };
+		2515C6CC2A55007200252D9F /* PostListsMembersCreateRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostListsMembersCreateRequestV1.swift; sourceTree = "<group>"; };
+		2515C6CD2A55007200252D9F /* GetListsSubscribersRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetListsSubscribersRequestV1.swift; sourceTree = "<group>"; };
+		2515C6CE2A55007200252D9F /* GetListsSubscriptionsRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetListsSubscriptionsRequestV1.swift; sourceTree = "<group>"; };
+		2515C6D12A55007200252D9F /* GetUsersProfileBannerRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetUsersProfileBannerRequestV1.swift; sourceTree = "<group>"; };
+		2515C6D22A55007200252D9F /* GetUsersSearchRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetUsersSearchRequestV1.swift; sourceTree = "<group>"; };
+		2515C6D32A55007200252D9F /* GetUsersLookupRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetUsersLookupRequestV1.swift; sourceTree = "<group>"; };
+		2515C6D42A55007200252D9F /* GetUsersShowRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetUsersShowRequestV1.swift; sourceTree = "<group>"; };
+		2515C6D52A55007200252D9F /* UserAPIv1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAPIv1.swift; sourceTree = "<group>"; };
+		2515C6D82A55007200252D9F /* GetApplicationRateLimitStatusRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetApplicationRateLimitStatusRequestV1.swift; sourceTree = "<group>"; };
+		2515C6D92A55007200252D9F /* ApplicationAPIv1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationAPIv1.swift; sourceTree = "<group>"; };
+		2515C6DB2A55007200252D9F /* AccountAPIv1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountAPIv1.swift; sourceTree = "<group>"; };
+		2515C6DD2A55007200252D9F /* PostAccountUpdateProfileRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostAccountUpdateProfileRequestV1.swift; sourceTree = "<group>"; };
+		2515C6DE2A55007200252D9F /* PostAccountSettingsRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostAccountSettingsRequestV1.swift; sourceTree = "<group>"; };
+		2515C6DF2A55007200252D9F /* GetAccountSettingsRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetAccountSettingsRequestV1.swift; sourceTree = "<group>"; };
+		2515C6E02A55007200252D9F /* GetAccountVerifyCredentialsRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetAccountVerifyCredentialsRequestV1.swift; sourceTree = "<group>"; };
+		2515C6E12A55007200252D9F /* PostAccountRemoveProfileBannerRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostAccountRemoveProfileBannerRequestV1.swift; sourceTree = "<group>"; };
+		2515C6E22A55007200252D9F /* PostAccountUpdateProfileImageRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostAccountUpdateProfileImageRequestV1.swift; sourceTree = "<group>"; };
+		2515C6E32A55007200252D9F /* PostAccountUpdateProfileBannerRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostAccountUpdateProfileBannerRequestV1.swift; sourceTree = "<group>"; };
+		2515C6E62A55007200252D9F /* GetHelpLanguagesRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetHelpLanguagesRequestV1.swift; sourceTree = "<group>"; };
+		2515C6E72A55007200252D9F /* HelpAPIv1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpAPIv1.swift; sourceTree = "<group>"; };
+		2515C6EA2A55007200252D9F /* UploadMediaInitRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadMediaInitRequestV1.swift; sourceTree = "<group>"; };
+		2515C6EB2A55007200252D9F /* UploadMediaAppendRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadMediaAppendRequestV1.swift; sourceTree = "<group>"; };
+		2515C6EC2A55007200252D9F /* PostMediaMetadataCreateRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostMediaMetadataCreateRequestV1.swift; sourceTree = "<group>"; };
+		2515C6ED2A55007200252D9F /* PostMediaSubtitlesDeleteRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostMediaSubtitlesDeleteRequestV1.swift; sourceTree = "<group>"; };
+		2515C6EE2A55007200252D9F /* UploadMediaFinalizeRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadMediaFinalizeRequestV1.swift; sourceTree = "<group>"; };
+		2515C6EF2A55007200252D9F /* PostMediaSubtitlesCreateRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostMediaSubtitlesCreateRequestV1.swift; sourceTree = "<group>"; };
+		2515C6F02A55007200252D9F /* GetUploadMediaStatusRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetUploadMediaStatusRequestV1.swift; sourceTree = "<group>"; };
+		2515C6F12A55007200252D9F /* MediaAPIv1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaAPIv1.swift; sourceTree = "<group>"; };
+		2515C6F22A55007200252D9F /* UploadMediaEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadMediaEntity.swift; sourceTree = "<group>"; };
+		2515C6F42A55007200252D9F /* TwitterOAuth2BearerToken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterOAuth2BearerToken.swift; sourceTree = "<group>"; };
+		2515C6F52A55007200252D9F /* AuthAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthAPI.swift; sourceTree = "<group>"; };
+		2515C6F62A55007200252D9F /* TwitterOAuth2AccessToken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterOAuth2AccessToken.swift; sourceTree = "<group>"; };
+		2515C6F72A55007200252D9F /* OAuth10aAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuth10aAPI.swift; sourceTree = "<group>"; };
+		2515C6F92A55007200252D9F /* PostOAuth2TokenRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostOAuth2TokenRequestV1.swift; sourceTree = "<group>"; };
+		2515C6FA2A55007200252D9F /* PostOAuth2RevokeTokenRequestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostOAuth2RevokeTokenRequestV2.swift; sourceTree = "<group>"; };
+		2515C6FB2A55007200252D9F /* GetOAuthAuthenticateRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetOAuthAuthenticateRequestV1.swift; sourceTree = "<group>"; };
+		2515C6FC2A55007200252D9F /* GetOAuth2AuthorizeRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetOAuth2AuthorizeRequestV1.swift; sourceTree = "<group>"; };
+		2515C6FD2A55007200252D9F /* PostOAuth2InvalidateTokenRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostOAuth2InvalidateTokenRequestV1.swift; sourceTree = "<group>"; };
+		2515C6FE2A55007200252D9F /* PostOAuth2AccessTokenRequestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostOAuth2AccessTokenRequestV2.swift; sourceTree = "<group>"; };
+		2515C6FF2A55007200252D9F /* PostOAuthInvalidateTokenRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostOAuthInvalidateTokenRequestV1.swift; sourceTree = "<group>"; };
+		2515C7002A55007200252D9F /* GetOAuthAuthorizeRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetOAuthAuthorizeRequestV1.swift; sourceTree = "<group>"; };
+		2515C7012A55007200252D9F /* PostOAuthRequestTokenRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostOAuthRequestTokenRequestV1.swift; sourceTree = "<group>"; };
+		2515C7022A55007200252D9F /* PostOAuthAccessTokenRequestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostOAuthAccessTokenRequestV1.swift; sourceTree = "<group>"; };
+		2515C7032A55007200252D9F /* PostOAuth2RefreshTokenRequestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostOAuth2RefreshTokenRequestV2.swift; sourceTree = "<group>"; };
+		2515C7042A55007200252D9F /* OAuth20API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuth20API.swift; sourceTree = "<group>"; };
+		2515C7052A55007200252D9F /* TwitterOAuthTokenV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterOAuthTokenV1.swift; sourceTree = "<group>"; };
+		2515C7062A55007200252D9F /* TwitterOAuthAccessTokenV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterOAuthAccessTokenV1.swift; sourceTree = "<group>"; };
+		2515C7072A55007200252D9F /* TwitterRateLimit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterRateLimit.swift; sourceTree = "<group>"; };
+		2515C7082A55007200252D9F /* TwitterAPIResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterAPIResponse.swift; sourceTree = "<group>"; };
+		2515C7092A55007200252D9F /* TwitterAPIKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterAPIKit.swift; sourceTree = "<group>"; };
+		2515C70A2A55007200252D9F /* TwitterAPISession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterAPISession.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2515C5A42A54FF4900252D9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2515C59D2A54FF4900252D9F = {
+			isa = PBXGroup;
+			children = (
+				2515C5BA2A55007200252D9F /* TwitterAPIKit */,
+				2515C5A82A54FF4900252D9F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2515C5A82A54FF4900252D9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2515C5A72A54FF4900252D9F /* TwitterAPIKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2515C5BA2A55007200252D9F /* TwitterAPIKit */ = {
+			isa = PBXGroup;
+			children = (
+				2515C5BB2A55007200252D9F /* TwitterAPI+Flat.generated.swift */,
+				2515C5BC2A55007200252D9F /* APIv2 */,
+				2515C63C2A55007200252D9F /* TwitterAPIClient.swift */,
+				2515C63D2A55007200252D9F /* TwitterAPIErrorResponse.swift */,
+				2515C63E2A55007200252D9F /* TwitterAPISessionDelegate.swift */,
+				2515C63F2A55007200252D9F /* TwitterAPIRequest.swift */,
+				2515C6402A55007200252D9F /* Extensions */,
+				2515C6482A55007200252D9F /* TwitterAuthenticationMethod.swift */,
+				2515C6492A55007200252D9F /* OAuthHelper.swift */,
+				2515C64A2A55007200252D9F /* TwitterAPIKitError.swift */,
+				2515C64B2A55007200252D9F /* SessionTask */,
+				2515C6542A55007200252D9F /* APIv1 */,
+				2515C6F32A55007200252D9F /* AuthAPI */,
+				2515C7072A55007200252D9F /* TwitterRateLimit.swift */,
+				2515C7082A55007200252D9F /* TwitterAPIResponse.swift */,
+				2515C7092A55007200252D9F /* TwitterAPIKit.swift */,
+				2515C70A2A55007200252D9F /* TwitterAPISession.swift */,
+			);
+			name = TwitterAPIKit;
+			path = Sources/TwitterAPIKit;
+			sourceTree = "<group>";
+		};
+		2515C5BC2A55007200252D9F /* APIv2 */ = {
+			isa = PBXGroup;
+			children = (
+				2515C5BD2A55007200252D9F /* DirectMessage */,
+				2515C5C72A55007200252D9F /* Tweet */,
+				2515C5D02A55007200252D9F /* Retweet */,
+				2515C5D62A55007200252D9F /* Like */,
+				2515C5DD2A55007200252D9F /* ExpansionsV2.swift */,
+				2515C5DE2A55007200252D9F /* Stream */,
+				2515C5E52A55007200252D9F /* Spaces */,
+				2515C5EE2A55007200252D9F /* BlockAndMute */,
+				2515C5F72A55007200252D9F /* FieldsV2.swift */,
+				2515C5F82A55007200252D9F /* Friendships */,
+				2515C5FF2A55007200252D9F /* Compliance */,
+				2515C6062A55007200252D9F /* TwitterAPIv2.swift */,
+				2515C6072A55007200252D9F /* Search */,
+				2515C60D2A55007200252D9F /* Bookmarks */,
+				2515C6132A55007200252D9F /* TweetCount */,
+				2515C6192A55007200252D9F /* List */,
+				2515C62D2A55007200252D9F /* Users */,
+				2515C6352A55007200252D9F /* Timeline */,
+			);
+			path = APIv2;
+			sourceTree = "<group>";
+		};
+		2515C5BD2A55007200252D9F /* DirectMessage */ = {
+			isa = PBXGroup;
+			children = (
+				2515C5BE2A55007200252D9F /* TwitterDirectMessageEventTypeV2.swift */,
+				2515C5BF2A55007200252D9F /* Requests */,
+				2515C5C62A55007200252D9F /* DirectMessageAPIv2.swift */,
+			);
+			path = DirectMessage;
+			sourceTree = "<group>";
+		};
+		2515C5BF2A55007200252D9F /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				2515C5C02A55007200252D9F /* GetDmEventsRequestV2.swift */,
+				2515C5C12A55007200252D9F /* GetDmConversationsWithParticipantIdDmEventsRequestV2.swift */,
+				2515C5C22A55007200252D9F /* PostDmConversationByIdRequestV2.swift */,
+				2515C5C32A55007200252D9F /* PostDmConversationRequestV2.swift */,
+				2515C5C42A55007200252D9F /* GetDmConversationsIdDmEventsRequestV2.swift */,
+				2515C5C52A55007200252D9F /* PostDmConversationWithUserRequestV2.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		2515C5C72A55007200252D9F /* Tweet */ = {
+			isa = PBXGroup;
+			children = (
+				2515C5C82A55007200252D9F /* Requests */,
+				2515C5CF2A55007200252D9F /* TweetAPIv2.swift */,
+			);
+			path = Tweet;
+			sourceTree = "<group>";
+		};
+		2515C5C82A55007200252D9F /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				2515C5C92A55007200252D9F /* GetTweetsRequestV2.swift */,
+				2515C5CA2A55007200252D9F /* PostTweetsRequestV2.swift */,
+				2515C5CB2A55007200252D9F /* GetTweetRequestV2.swift */,
+				2515C5CC2A55007200252D9F /* PutTweetsHiddenRequestV2.swift */,
+				2515C5CD2A55007200252D9F /* DeleteTweetRequestV2.swift */,
+				2515C5CE2A55007200252D9F /* GetTweetsQuoteTweetsRequestV2.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		2515C5D02A55007200252D9F /* Retweet */ = {
+			isa = PBXGroup;
+			children = (
+				2515C5D12A55007200252D9F /* RetweetAPIv2.swift */,
+				2515C5D22A55007200252D9F /* Requests */,
+			);
+			path = Retweet;
+			sourceTree = "<group>";
+		};
+		2515C5D22A55007200252D9F /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				2515C5D32A55007200252D9F /* GetTweetsRetweetedByRequestV2.swift */,
+				2515C5D42A55007200252D9F /* PostUsersRetweetsRequestV2.swift */,
+				2515C5D52A55007200252D9F /* DeleteUsersRetweetsRequestV2.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		2515C5D62A55007200252D9F /* Like */ = {
+			isa = PBXGroup;
+			children = (
+				2515C5D72A55007200252D9F /* Requests */,
+				2515C5DC2A55007200252D9F /* LikeAPIv2.swift */,
+			);
+			path = Like;
+			sourceTree = "<group>";
+		};
+		2515C5D72A55007200252D9F /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				2515C5D82A55007200252D9F /* GetTweetsLikingUsersRequestV2.swift */,
+				2515C5D92A55007200252D9F /* DeleteUsersLikesRequestV2.swift */,
+				2515C5DA2A55007200252D9F /* PostUsersLikesRequestV2.swift */,
+				2515C5DB2A55007200252D9F /* GetUsersLikedTweetsRequestV2.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		2515C5DE2A55007200252D9F /* Stream */ = {
+			isa = PBXGroup;
+			children = (
+				2515C5DF2A55007200252D9F /* Requests */,
+				2515C5E42A55007200252D9F /* StreamAPIv2.swift */,
+			);
+			path = Stream;
+			sourceTree = "<group>";
+		};
+		2515C5DF2A55007200252D9F /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				2515C5E02A55007200252D9F /* GetTweetsSearchStreamRulesRequestV2.swift */,
+				2515C5E12A55007200252D9F /* GetTweetsSearchStreamRequestV2.swift */,
+				2515C5E22A55007200252D9F /* PostTweetsSearchStreamRulesRequestV2.swift */,
+				2515C5E32A55007200252D9F /* GetTweetsSampleStreamRequestV2.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		2515C5E52A55007200252D9F /* Spaces */ = {
+			isa = PBXGroup;
+			children = (
+				2515C5E62A55007200252D9F /* Requests */,
+				2515C5ED2A55007200252D9F /* SpacesAPIv2.swift */,
+			);
+			path = Spaces;
+			sourceTree = "<group>";
+		};
+		2515C5E62A55007200252D9F /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				2515C5E72A55007200252D9F /* GetSpacesTweetsRequestV2.swift */,
+				2515C5E82A55007200252D9F /* GetSpacesSearchRequestV2.swift */,
+				2515C5E92A55007200252D9F /* GetSpaceRequestV2.swift */,
+				2515C5EA2A55007200252D9F /* GetSpacesByCreatorIDsRequestV2.swift */,
+				2515C5EB2A55007200252D9F /* GetSpacesRequestV2.swift */,
+				2515C5EC2A55007200252D9F /* GetSpacesBuyersRequestV2.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		2515C5EE2A55007200252D9F /* BlockAndMute */ = {
+			isa = PBXGroup;
+			children = (
+				2515C5EF2A55007200252D9F /* Requests */,
+				2515C5F62A55007200252D9F /* BlockAndMuteAPIv2.swift */,
+			);
+			path = BlockAndMute;
+			sourceTree = "<group>";
+		};
+		2515C5EF2A55007200252D9F /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				2515C5F02A55007200252D9F /* DeleteUsersMutingRequestV2.swift */,
+				2515C5F12A55007200252D9F /* GetUsersBlockingRequestV2.swift */,
+				2515C5F22A55007200252D9F /* PostUsersMutingRequestV2.swift */,
+				2515C5F32A55007200252D9F /* GetUsersMutingRequestV2.swift */,
+				2515C5F42A55007200252D9F /* PostUsersBlockingRequestV2.swift */,
+				2515C5F52A55007200252D9F /* DeleteUsersBlockingRequestV2.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		2515C5F82A55007200252D9F /* Friendships */ = {
+			isa = PBXGroup;
+			children = (
+				2515C5F92A55007200252D9F /* FriendshipsAPIv2.swift */,
+				2515C5FA2A55007200252D9F /* Requests */,
+			);
+			path = Friendships;
+			sourceTree = "<group>";
+		};
+		2515C5FA2A55007200252D9F /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				2515C5FB2A55007200252D9F /* GetUsersFollowingRequestV2.swift */,
+				2515C5FC2A55007200252D9F /* GetUsersFollowersRequestV2.swift */,
+				2515C5FD2A55007200252D9F /* PostUsersFollowingRequestV2.swift */,
+				2515C5FE2A55007200252D9F /* DeleteUsersFollowingRequestV2.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		2515C5FF2A55007200252D9F /* Compliance */ = {
+			isa = PBXGroup;
+			children = (
+				2515C6002A55007200252D9F /* Requests */,
+				2515C6042A55007200252D9F /* TwitterComplianceJobTypeV2.swift */,
+				2515C6052A55007200252D9F /* ComplianceAPIv2.swift */,
+			);
+			path = Compliance;
+			sourceTree = "<group>";
+		};
+		2515C6002A55007200252D9F /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				2515C6012A55007200252D9F /* GetComplianceJobRequestV2.swift */,
+				2515C6022A55007200252D9F /* PostComplianceJobsRequestV2.swift */,
+				2515C6032A55007200252D9F /* GetComplianceJobsRequestV2.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		2515C6072A55007200252D9F /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				2515C6082A55007200252D9F /* Requests */,
+				2515C60B2A55007200252D9F /* TwitterSearchTweetsSortOrderV2.swift */,
+				2515C60C2A55007200252D9F /* SearchAPIv2.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		2515C6082A55007200252D9F /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				2515C6092A55007200252D9F /* GetTweetsSearchAllRequestV2.swift */,
+				2515C60A2A55007200252D9F /* GetTweetsSearchRecentRequestV2.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		2515C60D2A55007200252D9F /* Bookmarks */ = {
+			isa = PBXGroup;
+			children = (
+				2515C60E2A55007200252D9F /* BookmarksAPIv2.swift */,
+				2515C60F2A55007200252D9F /* Requests */,
+			);
+			path = Bookmarks;
+			sourceTree = "<group>";
+		};
+		2515C60F2A55007200252D9F /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				2515C6102A55007200252D9F /* PostUsersBookmarksRequestV2.swift */,
+				2515C6112A55007200252D9F /* DeleteUsersBookmarksRequestV2.swift */,
+				2515C6122A55007200252D9F /* GetUsersBookmarksRequestV2.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		2515C6132A55007200252D9F /* TweetCount */ = {
+			isa = PBXGroup;
+			children = (
+				2515C6142A55007200252D9F /* TweetCountAPIv2.swift */,
+				2515C6152A55007200252D9F /* Requests */,
+			);
+			path = TweetCount;
+			sourceTree = "<group>";
+		};
+		2515C6152A55007200252D9F /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				2515C6162A55007200252D9F /* GetTweetsCountsRecentRequestV2.swift */,
+				2515C6172A55007200252D9F /* TweetCountGranularity.swift */,
+				2515C6182A55007200252D9F /* GetTweetsCountsAllRequestV2.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		2515C6192A55007200252D9F /* List */ = {
+			isa = PBXGroup;
+			children = (
+				2515C61A2A55007200252D9F /* ListAPIv2.swift */,
+				2515C61B2A55007200252D9F /* Requests */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		2515C61B2A55007200252D9F /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				2515C61C2A55007200252D9F /* PutListRequestV2.swift */,
+				2515C61D2A55007200252D9F /* DeleteListRequestV2.swift */,
+				2515C61E2A55007200252D9F /* GetUsersListMembershipsRequestV2.swift */,
+				2515C61F2A55007200252D9F /* PostListsMembersRequestV2.swift */,
+				2515C6202A55007200252D9F /* DeleteUsersFollowedListsRequestV2.swift */,
+				2515C6212A55007200252D9F /* PostUsersFollowedListsRequestV2.swift */,
+				2515C6222A55007200252D9F /* DeleteUsersPinnedListsRequestV2.swift */,
+				2515C6232A55007200252D9F /* DeleteListsMembersRequestV2.swift */,
+				2515C6242A55007200252D9F /* GetListsTweetsRequestV2.swift */,
+				2515C6252A55007200252D9F /* PostUsersPinnedListsRequestV2.swift */,
+				2515C6262A55007200252D9F /* GetUsersOwnedListsRequestV2.swift */,
+				2515C6272A55007200252D9F /* PostListsRequestV2.swift */,
+				2515C6282A55007200252D9F /* GetListRequestV2.swift */,
+				2515C6292A55007200252D9F /* GetUsersPinnedListsRequestV2.swift */,
+				2515C62A2A55007200252D9F /* GetListsFollowersRequestV2.swift */,
+				2515C62B2A55007200252D9F /* GetListsMembersRequestV2.swift */,
+				2515C62C2A55007200252D9F /* GetUsersFollowedListsRequestV2.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		2515C62D2A55007200252D9F /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				2515C62E2A55007200252D9F /* Requests */,
+				2515C6342A55007200252D9F /* UserAPIv2.swift */,
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
+		2515C62E2A55007200252D9F /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				2515C62F2A55007200252D9F /* GetUsersByRequestV2.swift */,
+				2515C6302A55007200252D9F /* GetUserRequestV2.swift */,
+				2515C6312A55007200252D9F /* GetUsersRequestV2.swift */,
+				2515C6322A55007200252D9F /* GetUsersByUsernameRequestV2.swift */,
+				2515C6332A55007200252D9F /* GetUsersMeRequestV2.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		2515C6352A55007200252D9F /* Timeline */ = {
+			isa = PBXGroup;
+			children = (
+				2515C6362A55007200252D9F /* TimelineAPIv2.swift */,
+				2515C6372A55007200252D9F /* Requests */,
+				2515C63B2A55007200252D9F /* TwitterTimelineExcludeV2.swift */,
+			);
+			path = Timeline;
+			sourceTree = "<group>";
+		};
+		2515C6372A55007200252D9F /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				2515C6382A55007200252D9F /* GetUsersTimelinesReverseChronologicalRequestV2.swift */,
+				2515C6392A55007200252D9F /* GetUsersMentionsRequestV2.swift */,
+				2515C63A2A55007200252D9F /* GetUsersTweetsRequestV2.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		2515C6402A55007200252D9F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2515C6412A55007200252D9F /* Date.swift */,
+				2515C6422A55007200252D9F /* Data.swift */,
+				2515C6432A55007200252D9F /* Concurrency.swift */,
+				2515C6442A55007200252D9F /* Result.swift */,
+				2515C6452A55007200252D9F /* DispatchQueue.swift */,
+				2515C6462A55007200252D9F /* Dictionary.swift */,
+				2515C6472A55007200252D9F /* String.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2515C64B2A55007200252D9F /* SessionTask */ = {
+			isa = PBXGroup;
+			children = (
+				2515C64C2A55007200252D9F /* TwitterAPIFailedTask.swift */,
+				2515C64D2A55007200252D9F /* TwitterAPISessionDelegatedJSONTask.swift */,
+				2515C64E2A55007200252D9F /* TwitterAPISessionJSONTask.swift */,
+				2515C64F2A55007200252D9F /* TwitterAPISessionSpecializedTask.swift */,
+				2515C6502A55007200252D9F /* TwitterAPISessionStreamTask.swift */,
+				2515C6512A55007200252D9F /* TwitterAPISessionDelegatedStreamTask.swift */,
+				2515C6522A55007200252D9F /* TwitterAPISessionDataTask.swift */,
+				2515C6532A55007200252D9F /* TwitterAPISessionTask.swift */,
+			);
+			path = SessionTask;
+			sourceTree = "<group>";
+		};
+		2515C6542A55007200252D9F /* APIv1 */ = {
+			isa = PBXGroup;
+			children = (
+				2515C6552A55007200252D9F /* TwitterUserIdentifierV1.swift */,
+				2515C6562A55007200252D9F /* DirectMessage */,
+				2515C65F2A55007200252D9F /* Tweet */,
+				2515C6662A55007200252D9F /* Retweet */,
+				2515C66E2A55007200252D9F /* TwitterLocations.swift */,
+				2515C66F2A55007200252D9F /* Collection */,
+				2515C67C2A55007200252D9F /* TwitterAPIv1.swift */,
+				2515C67D2A55007200252D9F /* Trend */,
+				2515C6832A55007200252D9F /* TwitterListIdentifierV1.swift */,
+				2515C6842A55007200252D9F /* TwitterListModeV1.swift */,
+				2515C6852A55007200252D9F /* Geo */,
+				2515C68B2A55007200252D9F /* BlockAndMute */,
+				2515C6972A55007200252D9F /* Favorite */,
+				2515C69D2A55007200252D9F /* Friendships */,
+				2515C6AC2A55007200252D9F /* Timelines */,
+				2515C6B22A55007200252D9F /* Search */,
+				2515C6B92A55007200252D9F /* List */,
+				2515C6CF2A55007200252D9F /* Users */,
+				2515C6D62A55007200252D9F /* Application */,
+				2515C6DA2A55007200252D9F /* Account */,
+				2515C6E42A55007200252D9F /* Help */,
+				2515C6E82A55007200252D9F /* Media */,
+			);
+			path = APIv1;
+			sourceTree = "<group>";
+		};
+		2515C6562A55007200252D9F /* DirectMessage */ = {
+			isa = PBXGroup;
+			children = (
+				2515C6572A55007200252D9F /* Requests */,
+				2515C65E2A55007200252D9F /* DirectMessageAPIv1.swift */,
+			);
+			path = DirectMessage;
+			sourceTree = "<group>";
+		};
+		2515C6572A55007200252D9F /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				2515C6582A55007200252D9F /* DeleteDirectMessageRequestV1.swift */,
+				2515C6592A55007200252D9F /* PostDirectMessagesMarkReadRequestV1.swift */,
+				2515C65A2A55007200252D9F /* PostDirectMessageRequestV1.swift */,
+				2515C65B2A55007200252D9F /* GetDirectMessageRequestV1.swift */,
+				2515C65C2A55007200252D9F /* PostDirectMessagesIndicateTypingRequestV1.swift */,
+				2515C65D2A55007200252D9F /* GetDirectMessageListRequestV1.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		2515C65F2A55007200252D9F /* Tweet */ = {
+			isa = PBXGroup;
+			children = (
+				2515C6602A55007200252D9F /* Requests */,
+				2515C6652A55007200252D9F /* TweetAPIv1.swift */,
+			);
+			path = Tweet;
+			sourceTree = "<group>";
+		};
+		2515C6602A55007200252D9F /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				2515C6612A55007200252D9F /* PostStatusesDestroyRequestV1.swift */,
+				2515C6622A55007200252D9F /* PostUpdateStatusRequestV1.swift */,
+				2515C6632A55007200252D9F /* GetStatusesLookupRequestV1.swift */,
+				2515C6642A55007200252D9F /* GetStatusesShowRequestV1.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		2515C6662A55007200252D9F /* Retweet */ = {
+			isa = PBXGroup;
+			children = (
+				2515C6672A55007200252D9F /* RetweetAPIv1.swift */,
+				2515C6682A55007200252D9F /* Requests */,
+			);
+			path = Retweet;
+			sourceTree = "<group>";
+		};
+		2515C6682A55007200252D9F /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				2515C6692A55007200252D9F /* PostRetweetRequestV1.swift */,
+				2515C66A2A55007200252D9F /* GetRetweetersRequestV1.swift */,
+				2515C66B2A55007200252D9F /* GetRetweetsOfMeRequestV1.swift */,
+				2515C66C2A55007200252D9F /* PostUnRetweetRequestV1.swift */,
+				2515C66D2A55007200252D9F /* GetRetweetsRequestV1.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		2515C66F2A55007200252D9F /* Collection */ = {
+			isa = PBXGroup;
+			children = (
+				2515C6702A55007200252D9F /* Requests */,
+				2515C67B2A55007200252D9F /* CollectionAPIv1.swift */,
+			);
+			path = Collection;
+			sourceTree = "<group>";
+		};
+		2515C6702A55007200252D9F /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				2515C6712A55007200252D9F /* PostCollectionsEntriesAddRequestV1.swift */,
+				2515C6722A55007200252D9F /* PostCollectionsDestroyRequestV1.swift */,
+				2515C6732A55007200252D9F /* PostCollectionsCreateRequestV1.swift */,
+				2515C6742A55007200252D9F /* GetCollectionsListRequestV1.swift */,
+				2515C6752A55007200252D9F /* PostCollectionsUpdateRequestV1.swift */,
+				2515C6762A55007200252D9F /* GetCollectionsEntriesRequestV1.swift */,
+				2515C6772A55007200252D9F /* PostCollectionsEntriesMoveRequestV1.swift */,
+				2515C6782A55007200252D9F /* GetCollectionsShowRequestV1.swift */,
+				2515C6792A55007200252D9F /* PostCollectionsEntriesRemoveRequestV1.swift */,
+				2515C67A2A55007200252D9F /* PostCollectionsEntriesCurateRequestV1.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		2515C67D2A55007200252D9F /* Trend */ = {
+			isa = PBXGroup;
+			children = (
+				2515C67E2A55007200252D9F /* TrendAPIv1.swift */,
+				2515C67F2A55007200252D9F /* Requests */,
+			);
+			path = Trend;
+			sourceTree = "<group>";
+		};
+		2515C67F2A55007200252D9F /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				2515C6802A55007200252D9F /* GetTrendsPlaceRequestV1.swift */,
+				2515C6812A55007200252D9F /* GetTrendsClosestRequestV1.swift */,
+				2515C6822A55007200252D9F /* GetTrendsAvailableRequestV1.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		2515C6852A55007200252D9F /* Geo */ = {
+			isa = PBXGroup;
+			children = (
+				2515C6862A55007200252D9F /* Requests */,
+				2515C68A2A55007200252D9F /* GeoAPIv1.swift */,
+			);
+			path = Geo;
+			sourceTree = "<group>";
+		};
+		2515C6862A55007200252D9F /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				2515C6872A55007200252D9F /* GetGeoReverseGeocodeRequestV1.swift */,
+				2515C6882A55007200252D9F /* GetGeoPlaceIDRequestV1.swift */,
+				2515C6892A55007200252D9F /* GetGeoSearchRequestV1.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		2515C68B2A55007200252D9F /* BlockAndMute */ = {
+			isa = PBXGroup;
+			children = (
+				2515C68C2A55007200252D9F /* Requests */,
+				2515C6962A55007200252D9F /* BlockAndMuteAPIv1.swift */,
+			);
+			path = BlockAndMute;
+			sourceTree = "<group>";
+		};
+		2515C68C2A55007200252D9F /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				2515C68D2A55007200252D9F /* PostMutesUsersDestroyRequestV1.swift */,
+				2515C68E2A55007200252D9F /* GetBlocksIDsRequestV1.swift */,
+				2515C68F2A55007200252D9F /* PostBlocksCreateRequestV1.swift */,
+				2515C6902A55007200252D9F /* PostMutesUsersCreateRequestV1.swift */,
+				2515C6912A55007200252D9F /* GetMutesUsersIDsRequestV1.swift */,
+				2515C6922A55007200252D9F /* GetMutesUsersListRequestV1.swift */,
+				2515C6932A55007200252D9F /* GetBlocksListRequestV1.swift */,
+				2515C6942A55007200252D9F /* PostBlocksDestroyRequestV1.swift */,
+				2515C6952A55007200252D9F /* PostUsersReportSpamRequestV1.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		2515C6972A55007200252D9F /* Favorite */ = {
+			isa = PBXGroup;
+			children = (
+				2515C6982A55007200252D9F /* Requests */,
+				2515C69C2A55007200252D9F /* FavoriteAPIv1.swift */,
+			);
+			path = Favorite;
+			sourceTree = "<group>";
+		};
+		2515C6982A55007200252D9F /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				2515C6992A55007200252D9F /* PostUnFavoriteRequestV1.swift */,
+				2515C69A2A55007200252D9F /* PostFavoriteRequestV1.swift */,
+				2515C69B2A55007200252D9F /* GetFavoritesRequestV1.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		2515C69D2A55007200252D9F /* Friendships */ = {
+			isa = PBXGroup;
+			children = (
+				2515C69E2A55007200252D9F /* FriendshipsAPIv1.swift */,
+				2515C69F2A55007200252D9F /* Requests */,
+			);
+			path = Friendships;
+			sourceTree = "<group>";
+		};
+		2515C69F2A55007200252D9F /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				2515C6A02A55007200252D9F /* GetFriendsIDsRequestV1.swift */,
+				2515C6A12A55007200252D9F /* PostFriendshipsUpdateRequestV1.swift */,
+				2515C6A22A55007200252D9F /* GetFriendshipsNoRetweetsIDsRequestV1.swift */,
+				2515C6A32A55007200252D9F /* PostFriendshipsDestroyRequestV1.swift */,
+				2515C6A42A55007200252D9F /* GetFriendshipsIncomingRequestV1.swift */,
+				2515C6A52A55007200252D9F /* GetFriendshipsOutgoingRequestV1.swift */,
+				2515C6A62A55007200252D9F /* GetFriendshipsShowRequestV1.swift */,
+				2515C6A72A55007200252D9F /* GetFollowersIDsRequestV1.swift */,
+				2515C6A82A55007200252D9F /* GetFriendsListRequestV1.swift */,
+				2515C6A92A55007200252D9F /* GetFollowersListRequestV1.swift */,
+				2515C6AA2A55007200252D9F /* GetFriendshipsLookupRequestV1.swift */,
+				2515C6AB2A55007200252D9F /* PostFriendshipsCreateRequestV1.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		2515C6AC2A55007200252D9F /* Timelines */ = {
+			isa = PBXGroup;
+			children = (
+				2515C6AD2A55007200252D9F /* TimelineAPIv1.swift */,
+				2515C6AE2A55007200252D9F /* Requests */,
+			);
+			path = Timelines;
+			sourceTree = "<group>";
+		};
+		2515C6AE2A55007200252D9F /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				2515C6AF2A55007200252D9F /* GetStatusesMentionsTimelineRequestV1.swift */,
+				2515C6B02A55007200252D9F /* GetStatusesHomeTimelineRequestV1.swift */,
+				2515C6B12A55007200252D9F /* GetStatusesUserTimelineRequestV1.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		2515C6B22A55007200252D9F /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				2515C6B32A55007200252D9F /* Requests */,
+				2515C6B82A55007200252D9F /* SearchAPIv1.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		2515C6B32A55007200252D9F /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				2515C6B42A55007200252D9F /* PostSavedSearchesDestroyRequestV1.swift */,
+				2515C6B52A55007200252D9F /* PostSavedSearchesCreateRequestV1.swift */,
+				2515C6B62A55007200252D9F /* GetSearchTweetsRequestV1.swift */,
+				2515C6B72A55007200252D9F /* GetSavedSearchesListRequestV1.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		2515C6B92A55007200252D9F /* List */ = {
+			isa = PBXGroup;
+			children = (
+				2515C6BA2A55007200252D9F /* ListAPIv1.swift */,
+				2515C6BB2A55007200252D9F /* Requests */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		2515C6BB2A55007200252D9F /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				2515C6BC2A55007200252D9F /* PostListsDestroyRequestV1.swift */,
+				2515C6BD2A55007200252D9F /* PostListsCreateRequestV1.swift */,
+				2515C6BE2A55007200252D9F /* GetListsOwnershipsRequestV1.swift */,
+				2515C6BF2A55007200252D9F /* PostListsSubscribersCreateRequestV1.swift */,
+				2515C6C02A55007200252D9F /* PostListsMembersDestroyAllRequestV1.swift */,
+				2515C6C12A55007200252D9F /* GetListsListRequestV1.swift */,
+				2515C6C22A55007200252D9F /* PostListsSubscribersDestroyRequestV1.swift */,
+				2515C6C32A55007200252D9F /* GetListsMembersShowRequestV1.swift */,
+				2515C6C42A55007200252D9F /* GetListsShowRequestV1.swift */,
+				2515C6C52A55007200252D9F /* PostListsMembersDestroyRequestV1.swift */,
+				2515C6C62A55007200252D9F /* GetListsSubscribersShowRequestV1.swift */,
+				2515C6C72A55007200252D9F /* GetListsMembersRequestV1.swift */,
+				2515C6C82A55007200252D9F /* GetListsMembershipsRequestV1.swift */,
+				2515C6C92A55007200252D9F /* GetListsStatusesRequestV1.swift */,
+				2515C6CA2A55007200252D9F /* PostListsMembersCreateAllRequestV1.swift */,
+				2515C6CB2A55007200252D9F /* PostListsUpdateRequestV1.swift */,
+				2515C6CC2A55007200252D9F /* PostListsMembersCreateRequestV1.swift */,
+				2515C6CD2A55007200252D9F /* GetListsSubscribersRequestV1.swift */,
+				2515C6CE2A55007200252D9F /* GetListsSubscriptionsRequestV1.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		2515C6CF2A55007200252D9F /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				2515C6D02A55007200252D9F /* Requests */,
+				2515C6D52A55007200252D9F /* UserAPIv1.swift */,
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
+		2515C6D02A55007200252D9F /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				2515C6D12A55007200252D9F /* GetUsersProfileBannerRequestV1.swift */,
+				2515C6D22A55007200252D9F /* GetUsersSearchRequestV1.swift */,
+				2515C6D32A55007200252D9F /* GetUsersLookupRequestV1.swift */,
+				2515C6D42A55007200252D9F /* GetUsersShowRequestV1.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		2515C6D62A55007200252D9F /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				2515C6D72A55007200252D9F /* Requests */,
+				2515C6D92A55007200252D9F /* ApplicationAPIv1.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		2515C6D72A55007200252D9F /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				2515C6D82A55007200252D9F /* GetApplicationRateLimitStatusRequestV1.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		2515C6DA2A55007200252D9F /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				2515C6DB2A55007200252D9F /* AccountAPIv1.swift */,
+				2515C6DC2A55007200252D9F /* Requests */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		2515C6DC2A55007200252D9F /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				2515C6DD2A55007200252D9F /* PostAccountUpdateProfileRequestV1.swift */,
+				2515C6DE2A55007200252D9F /* PostAccountSettingsRequestV1.swift */,
+				2515C6DF2A55007200252D9F /* GetAccountSettingsRequestV1.swift */,
+				2515C6E02A55007200252D9F /* GetAccountVerifyCredentialsRequestV1.swift */,
+				2515C6E12A55007200252D9F /* PostAccountRemoveProfileBannerRequestV1.swift */,
+				2515C6E22A55007200252D9F /* PostAccountUpdateProfileImageRequestV1.swift */,
+				2515C6E32A55007200252D9F /* PostAccountUpdateProfileBannerRequestV1.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		2515C6E42A55007200252D9F /* Help */ = {
+			isa = PBXGroup;
+			children = (
+				2515C6E52A55007200252D9F /* Requests */,
+				2515C6E72A55007200252D9F /* HelpAPIv1.swift */,
+			);
+			path = Help;
+			sourceTree = "<group>";
+		};
+		2515C6E52A55007200252D9F /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				2515C6E62A55007200252D9F /* GetHelpLanguagesRequestV1.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		2515C6E82A55007200252D9F /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				2515C6E92A55007200252D9F /* Requests */,
+				2515C6F12A55007200252D9F /* MediaAPIv1.swift */,
+				2515C6F22A55007200252D9F /* UploadMediaEntity.swift */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+		2515C6E92A55007200252D9F /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				2515C6EA2A55007200252D9F /* UploadMediaInitRequestV1.swift */,
+				2515C6EB2A55007200252D9F /* UploadMediaAppendRequestV1.swift */,
+				2515C6EC2A55007200252D9F /* PostMediaMetadataCreateRequestV1.swift */,
+				2515C6ED2A55007200252D9F /* PostMediaSubtitlesDeleteRequestV1.swift */,
+				2515C6EE2A55007200252D9F /* UploadMediaFinalizeRequestV1.swift */,
+				2515C6EF2A55007200252D9F /* PostMediaSubtitlesCreateRequestV1.swift */,
+				2515C6F02A55007200252D9F /* GetUploadMediaStatusRequestV1.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		2515C6F32A55007200252D9F /* AuthAPI */ = {
+			isa = PBXGroup;
+			children = (
+				2515C6F42A55007200252D9F /* TwitterOAuth2BearerToken.swift */,
+				2515C6F52A55007200252D9F /* AuthAPI.swift */,
+				2515C6F62A55007200252D9F /* TwitterOAuth2AccessToken.swift */,
+				2515C6F72A55007200252D9F /* OAuth10aAPI.swift */,
+				2515C6F82A55007200252D9F /* Requests */,
+				2515C7042A55007200252D9F /* OAuth20API.swift */,
+				2515C7052A55007200252D9F /* TwitterOAuthTokenV1.swift */,
+				2515C7062A55007200252D9F /* TwitterOAuthAccessTokenV1.swift */,
+			);
+			path = AuthAPI;
+			sourceTree = "<group>";
+		};
+		2515C6F82A55007200252D9F /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				2515C6F92A55007200252D9F /* PostOAuth2TokenRequestV1.swift */,
+				2515C6FA2A55007200252D9F /* PostOAuth2RevokeTokenRequestV2.swift */,
+				2515C6FB2A55007200252D9F /* GetOAuthAuthenticateRequestV1.swift */,
+				2515C6FC2A55007200252D9F /* GetOAuth2AuthorizeRequestV1.swift */,
+				2515C6FD2A55007200252D9F /* PostOAuth2InvalidateTokenRequestV1.swift */,
+				2515C6FE2A55007200252D9F /* PostOAuth2AccessTokenRequestV2.swift */,
+				2515C6FF2A55007200252D9F /* PostOAuthInvalidateTokenRequestV1.swift */,
+				2515C7002A55007200252D9F /* GetOAuthAuthorizeRequestV1.swift */,
+				2515C7012A55007200252D9F /* PostOAuthRequestTokenRequestV1.swift */,
+				2515C7022A55007200252D9F /* PostOAuthAccessTokenRequestV1.swift */,
+				2515C7032A55007200252D9F /* PostOAuth2RefreshTokenRequestV2.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2515C5A22A54FF4900252D9F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2515C5A62A54FF4900252D9F /* TwitterAPIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2515C5AE2A54FF4900252D9F /* Build configuration list for PBXNativeTarget "TwitterAPIKit" */;
+			buildPhases = (
+				2515C5A22A54FF4900252D9F /* Headers */,
+				2515C5A32A54FF4900252D9F /* Sources */,
+				2515C5A42A54FF4900252D9F /* Frameworks */,
+				2515C5A52A54FF4900252D9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TwitterAPIKit;
+			productName = TwitterAPIKit;
+			productReference = 2515C5A72A54FF4900252D9F /* TwitterAPIKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2515C59E2A54FF4900252D9F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					2515C5A62A54FF4900252D9F = {
+						CreatedOnToolsVersion = 14.3;
+						LastSwiftMigration = 1430;
+					};
+				};
+			};
+			buildConfigurationList = 2515C5A12A54FF4900252D9F /* Build configuration list for PBXProject "TwitterAPIKit" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2515C59D2A54FF4900252D9F;
+			productRefGroup = 2515C5A82A54FF4900252D9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2515C5A62A54FF4900252D9F /* TwitterAPIKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2515C5A52A54FF4900252D9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2515C5A32A54FF4900252D9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2515C76F2A55007200252D9F /* TwitterAPISessionDelegate.swift in Sources */,
+				2515C7D22A55007300252D9F /* PostListsDestroyRequestV1.swift in Sources */,
+				2515C7482A55007200252D9F /* BookmarksAPIv2.swift in Sources */,
+				2515C74D2A55007200252D9F /* GetTweetsCountsRecentRequestV2.swift in Sources */,
+				2515C8102A55007300252D9F /* TwitterOAuthAccessTokenV1.swift in Sources */,
+				2515C71F2A55007200252D9F /* GetTweetsLikingUsersRequestV2.swift in Sources */,
+				2515C75F2A55007200252D9F /* GetListsFollowersRequestV2.swift in Sources */,
+				2515C7872A55007200252D9F /* GetDirectMessageRequestV1.swift in Sources */,
+				2515C7762A55007200252D9F /* Dictionary.swift in Sources */,
+				2515C7222A55007200252D9F /* GetUsersLikedTweetsRequestV2.swift in Sources */,
+				2515C7B42A55007300252D9F /* PostBlocksDestroyRequestV1.swift in Sources */,
+				2515C76D2A55007200252D9F /* TwitterAPIClient.swift in Sources */,
+				2515C7662A55007200252D9F /* GetUsersMeRequestV2.swift in Sources */,
+				2515C7932A55007200252D9F /* GetRetweetsOfMeRequestV1.swift in Sources */,
+				2515C7382A55007200252D9F /* FieldsV2.swift in Sources */,
+				2515C7F92A55007300252D9F /* PostMediaSubtitlesDeleteRequestV1.swift in Sources */,
+				2515C8112A55007300252D9F /* TwitterRateLimit.swift in Sources */,
+				2515C75E2A55007200252D9F /* GetUsersPinnedListsRequestV2.swift in Sources */,
+				2515C72D2A55007200252D9F /* GetSpacesByCreatorIDsRequestV2.swift in Sources */,
+				2515C7692A55007200252D9F /* GetUsersTimelinesReverseChronologicalRequestV2.swift in Sources */,
+				2515C7272A55007200252D9F /* PostTweetsSearchStreamRulesRequestV2.swift in Sources */,
+				2515C8032A55007300252D9F /* PostOAuth2TokenRequestV1.swift in Sources */,
+				2515C79C2A55007200252D9F /* GetCollectionsEntriesRequestV1.swift in Sources */,
+				2515C7FA2A55007300252D9F /* UploadMediaFinalizeRequestV1.swift in Sources */,
+				2515C7BB2A55007300252D9F /* FriendshipsAPIv1.swift in Sources */,
+				2515C7F42A55007300252D9F /* GetHelpLanguagesRequestV1.swift in Sources */,
+				2515C8012A55007300252D9F /* TwitterOAuth2AccessToken.swift in Sources */,
+				2515C7352A55007200252D9F /* PostUsersBlockingRequestV2.swift in Sources */,
+				2515C7562A55007200252D9F /* PostUsersFollowedListsRequestV2.swift in Sources */,
+				2515C76C2A55007200252D9F /* TwitterTimelineExcludeV2.swift in Sources */,
+				2515C7E72A55007300252D9F /* GetUsersLookupRequestV1.swift in Sources */,
+				2515C7E32A55007300252D9F /* GetListsSubscribersRequestV1.swift in Sources */,
+				2515C79F2A55007200252D9F /* PostCollectionsEntriesRemoveRequestV1.swift in Sources */,
+				2515C7752A55007200252D9F /* DispatchQueue.swift in Sources */,
+				2515C7642A55007200252D9F /* GetUsersRequestV2.swift in Sources */,
+				2515C78A2A55007200252D9F /* DirectMessageAPIv1.swift in Sources */,
+				2515C7A32A55007200252D9F /* TrendAPIv1.swift in Sources */,
+				2515C8142A55007300252D9F /* TwitterAPISession.swift in Sources */,
+				2515C7392A55007200252D9F /* FriendshipsAPIv2.swift in Sources */,
+				2515C7612A55007200252D9F /* GetUsersFollowedListsRequestV2.swift in Sources */,
+				2515C7FD2A55007300252D9F /* MediaAPIv1.swift in Sources */,
+				2515C7AD2A55007200252D9F /* PostMutesUsersDestroyRequestV1.swift in Sources */,
+				2515C7D62A55007300252D9F /* PostListsMembersDestroyAllRequestV1.swift in Sources */,
+				2515C7942A55007200252D9F /* PostUnRetweetRequestV1.swift in Sources */,
+				2515C7682A55007200252D9F /* TimelineAPIv2.swift in Sources */,
+				2515C8072A55007300252D9F /* PostOAuth2InvalidateTokenRequestV1.swift in Sources */,
+				2515C7CF2A55007300252D9F /* GetSavedSearchesListRequestV1.swift in Sources */,
+				2515C7992A55007200252D9F /* PostCollectionsCreateRequestV1.swift in Sources */,
+				2515C8042A55007300252D9F /* PostOAuth2RevokeTokenRequestV2.swift in Sources */,
+				2515C7B82A55007300252D9F /* PostFavoriteRequestV1.swift in Sources */,
+				2515C7B62A55007300252D9F /* BlockAndMuteAPIv1.swift in Sources */,
+				2515C7EF2A55007300252D9F /* GetAccountSettingsRequestV1.swift in Sources */,
+				2515C7F62A55007300252D9F /* UploadMediaInitRequestV1.swift in Sources */,
+				2515C7632A55007200252D9F /* GetUserRequestV2.swift in Sources */,
+				2515C8062A55007300252D9F /* GetOAuth2AuthorizeRequestV1.swift in Sources */,
+				2515C80E2A55007300252D9F /* OAuth20API.swift in Sources */,
+				2515C78B2A55007200252D9F /* PostStatusesDestroyRequestV1.swift in Sources */,
+				2515C7542A55007200252D9F /* PostListsMembersRequestV2.swift in Sources */,
+				2515C7CB2A55007300252D9F /* GetStatusesUserTimelineRequestV1.swift in Sources */,
+				2515C7782A55007200252D9F /* TwitterAuthenticationMethod.swift in Sources */,
+				2515C7772A55007200252D9F /* String.swift in Sources */,
+				2515C7982A55007200252D9F /* PostCollectionsDestroyRequestV1.swift in Sources */,
+				2515C7822A55007200252D9F /* TwitterAPISessionTask.swift in Sources */,
+				2515C7152A55007200252D9F /* PostTweetsRequestV2.swift in Sources */,
+				2515C7EE2A55007300252D9F /* PostAccountSettingsRequestV1.swift in Sources */,
+				2515C7602A55007200252D9F /* GetListsMembersRequestV2.swift in Sources */,
+				2515C7AC2A55007200252D9F /* GeoAPIv1.swift in Sources */,
+				2515C7902A55007200252D9F /* RetweetAPIv1.swift in Sources */,
+				2515C7502A55007200252D9F /* ListAPIv2.swift in Sources */,
+				2515C7D02A55007300252D9F /* SearchAPIv1.swift in Sources */,
+				2515C7402A55007200252D9F /* GetComplianceJobsRequestV2.swift in Sources */,
+				2515C7BA2A55007300252D9F /* FavoriteAPIv1.swift in Sources */,
+				2515C7A52A55007200252D9F /* GetTrendsClosestRequestV1.swift in Sources */,
+				2515C72B2A55007200252D9F /* GetSpacesSearchRequestV2.swift in Sources */,
+				2515C78C2A55007200252D9F /* PostUpdateStatusRequestV1.swift in Sources */,
+				2515C7C82A55007300252D9F /* TimelineAPIv1.swift in Sources */,
+				2515C7242A55007200252D9F /* ExpansionsV2.swift in Sources */,
+				2515C73C2A55007200252D9F /* PostUsersFollowingRequestV2.swift in Sources */,
+				2515C7712A55007200252D9F /* Date.swift in Sources */,
+				2515C7E42A55007300252D9F /* GetListsSubscriptionsRequestV1.swift in Sources */,
+				2515C80F2A55007300252D9F /* TwitterOAuthTokenV1.swift in Sources */,
+				2515C72E2A55007200252D9F /* GetSpacesRequestV2.swift in Sources */,
+				2515C8092A55007300252D9F /* PostOAuthInvalidateTokenRequestV1.swift in Sources */,
+				2515C80A2A55007300252D9F /* GetOAuthAuthorizeRequestV1.swift in Sources */,
+				2515C73F2A55007200252D9F /* PostComplianceJobsRequestV2.swift in Sources */,
+				2515C7C02A55007300252D9F /* GetFriendshipsIncomingRequestV1.swift in Sources */,
+				2515C7672A55007200252D9F /* UserAPIv2.swift in Sources */,
+				2515C7F82A55007300252D9F /* PostMediaMetadataCreateRequestV1.swift in Sources */,
+				2515C72A2A55007200252D9F /* GetSpacesTweetsRequestV2.swift in Sources */,
+				2515C7AA2A55007200252D9F /* GetGeoPlaceIDRequestV1.swift in Sources */,
+				2515C74C2A55007200252D9F /* TweetCountAPIv2.swift in Sources */,
+				2515C7202A55007200252D9F /* DeleteUsersLikesRequestV2.swift in Sources */,
+				2515C7532A55007200252D9F /* GetUsersListMembershipsRequestV2.swift in Sources */,
+				2515C7732A55007200252D9F /* Concurrency.swift in Sources */,
+				2515C8002A55007300252D9F /* AuthAPI.swift in Sources */,
+				2515C7172A55007200252D9F /* PutTweetsHiddenRequestV2.swift in Sources */,
+				2515C7F12A55007300252D9F /* PostAccountRemoveProfileBannerRequestV1.swift in Sources */,
+				2515C7F52A55007300252D9F /* HelpAPIv1.swift in Sources */,
+				2515C7852A55007200252D9F /* PostDirectMessagesMarkReadRequestV1.swift in Sources */,
+				2515C8082A55007300252D9F /* PostOAuth2AccessTokenRequestV2.swift in Sources */,
+				2515C7C62A55007300252D9F /* GetFriendshipsLookupRequestV1.swift in Sources */,
+				2515C73A2A55007200252D9F /* GetUsersFollowingRequestV2.swift in Sources */,
+				2515C79E2A55007200252D9F /* GetCollectionsShowRequestV1.swift in Sources */,
+				2515C7F02A55007300252D9F /* GetAccountVerifyCredentialsRequestV1.swift in Sources */,
+				2515C7362A55007200252D9F /* DeleteUsersBlockingRequestV2.swift in Sources */,
+				2515C7DB2A55007300252D9F /* PostListsMembersDestroyRequestV1.swift in Sources */,
+				2515C7D82A55007300252D9F /* PostListsSubscribersDestroyRequestV1.swift in Sources */,
+				2515C7AF2A55007200252D9F /* PostBlocksCreateRequestV1.swift in Sources */,
+				2515C80D2A55007300252D9F /* PostOAuth2RefreshTokenRequestV2.swift in Sources */,
+				2515C7D72A55007300252D9F /* GetListsListRequestV1.swift in Sources */,
+				2515C7332A55007200252D9F /* PostUsersMutingRequestV2.swift in Sources */,
+				2515C7FF2A55007300252D9F /* TwitterOAuth2BearerToken.swift in Sources */,
+				2515C72C2A55007200252D9F /* GetSpaceRequestV2.swift in Sources */,
+				2515C7DD2A55007300252D9F /* GetListsMembersRequestV1.swift in Sources */,
+				2515C7142A55007200252D9F /* GetTweetsRequestV2.swift in Sources */,
+				2515C7C12A55007300252D9F /* GetFriendshipsOutgoingRequestV1.swift in Sources */,
+				2515C7ED2A55007300252D9F /* PostAccountUpdateProfileRequestV1.swift in Sources */,
+				2515C7AB2A55007200252D9F /* GetGeoSearchRequestV1.swift in Sources */,
+				2515C8052A55007300252D9F /* GetOAuthAuthenticateRequestV1.swift in Sources */,
+				2515C7DC2A55007300252D9F /* GetListsSubscribersShowRequestV1.swift in Sources */,
+				2515C7AE2A55007200252D9F /* GetBlocksIDsRequestV1.swift in Sources */,
+				2515C7CD2A55007300252D9F /* PostSavedSearchesCreateRequestV1.swift in Sources */,
+				2515C80C2A55007300252D9F /* PostOAuthAccessTokenRequestV1.swift in Sources */,
+				2515C7B12A55007200252D9F /* GetMutesUsersIDsRequestV1.swift in Sources */,
+				2515C7C72A55007300252D9F /* PostFriendshipsCreateRequestV1.swift in Sources */,
+				2515C7B52A55007300252D9F /* PostUsersReportSpamRequestV1.swift in Sources */,
+				2515C70B2A55007200252D9F /* TwitterAPI+Flat.generated.swift in Sources */,
+				2515C7A82A55007200252D9F /* TwitterListModeV1.swift in Sources */,
+				2515C7812A55007200252D9F /* TwitterAPISessionDataTask.swift in Sources */,
+				2515C7342A55007200252D9F /* GetUsersMutingRequestV2.swift in Sources */,
+				2515C7A92A55007200252D9F /* GetGeoReverseGeocodeRequestV1.swift in Sources */,
+				2515C7212A55007200252D9F /* PostUsersLikesRequestV2.swift in Sources */,
+				2515C7102A55007200252D9F /* PostDmConversationRequestV2.swift in Sources */,
+				2515C7842A55007200252D9F /* DeleteDirectMessageRequestV1.swift in Sources */,
+				2515C7722A55007200252D9F /* Data.swift in Sources */,
+				2515C7442A55007200252D9F /* GetTweetsSearchAllRequestV2.swift in Sources */,
+				2515C8122A55007300252D9F /* TwitterAPIResponse.swift in Sources */,
+				2515C7972A55007200252D9F /* PostCollectionsEntriesAddRequestV1.swift in Sources */,
+				2515C7E02A55007300252D9F /* PostListsMembersCreateAllRequestV1.swift in Sources */,
+				2515C7BE2A55007300252D9F /* GetFriendshipsNoRetweetsIDsRequestV1.swift in Sources */,
+				2515C7E92A55007300252D9F /* UserAPIv1.swift in Sources */,
+				2515C71C2A55007200252D9F /* GetTweetsRetweetedByRequestV2.swift in Sources */,
+				2515C7D12A55007300252D9F /* ListAPIv1.swift in Sources */,
+				2515C7292A55007200252D9F /* StreamAPIv2.swift in Sources */,
+				2515C7A62A55007200252D9F /* GetTrendsAvailableRequestV1.swift in Sources */,
+				2515C8022A55007300252D9F /* OAuth10aAPI.swift in Sources */,
+				2515C7DF2A55007300252D9F /* GetListsStatusesRequestV1.swift in Sources */,
+				2515C71E2A55007200252D9F /* DeleteUsersRetweetsRequestV2.swift in Sources */,
+				2515C71D2A55007200252D9F /* PostUsersRetweetsRequestV2.swift in Sources */,
+				2515C78E2A55007200252D9F /* GetStatusesShowRequestV1.swift in Sources */,
+				2515C7C92A55007300252D9F /* GetStatusesMentionsTimelineRequestV1.swift in Sources */,
+				2515C7572A55007200252D9F /* DeleteUsersPinnedListsRequestV2.swift in Sources */,
+				2515C7B02A55007200252D9F /* PostMutesUsersCreateRequestV1.swift in Sources */,
+				2515C7A72A55007200252D9F /* TwitterListIdentifierV1.swift in Sources */,
+				2515C7FC2A55007300252D9F /* GetUploadMediaStatusRequestV1.swift in Sources */,
+				2515C80B2A55007300252D9F /* PostOAuthRequestTokenRequestV1.swift in Sources */,
+				2515C71B2A55007200252D9F /* RetweetAPIv2.swift in Sources */,
+				2515C73D2A55007200252D9F /* DeleteUsersFollowingRequestV2.swift in Sources */,
+				2515C7592A55007200252D9F /* GetListsTweetsRequestV2.swift in Sources */,
+				2515C7652A55007200252D9F /* GetUsersByUsernameRequestV2.swift in Sources */,
+				2515C7B32A55007300252D9F /* GetBlocksListRequestV1.swift in Sources */,
+				2515C7CA2A55007300252D9F /* GetStatusesHomeTimelineRequestV1.swift in Sources */,
+				2515C75B2A55007200252D9F /* GetUsersOwnedListsRequestV2.swift in Sources */,
+				2515C7BF2A55007300252D9F /* PostFriendshipsDestroyRequestV1.swift in Sources */,
+				2515C7E62A55007300252D9F /* GetUsersSearchRequestV1.swift in Sources */,
+				2515C78D2A55007200252D9F /* GetStatusesLookupRequestV1.swift in Sources */,
+				2515C7BC2A55007300252D9F /* GetFriendsIDsRequestV1.swift in Sources */,
+				2515C7EC2A55007300252D9F /* AccountAPIv1.swift in Sources */,
+				2515C7162A55007200252D9F /* GetTweetRequestV2.swift in Sources */,
+				2515C78F2A55007200252D9F /* TweetAPIv1.swift in Sources */,
+				2515C7D92A55007300252D9F /* GetListsMembersShowRequestV1.swift in Sources */,
+				2515C7252A55007200252D9F /* GetTweetsSearchStreamRulesRequestV2.swift in Sources */,
+				2515C72F2A55007200252D9F /* GetSpacesBuyersRequestV2.swift in Sources */,
+				2515C74A2A55007200252D9F /* DeleteUsersBookmarksRequestV2.swift in Sources */,
+				2515C71A2A55007200252D9F /* TweetAPIv2.swift in Sources */,
+				2515C7A12A55007200252D9F /* CollectionAPIv1.swift in Sources */,
+				2515C7122A55007200252D9F /* PostDmConversationWithUserRequestV2.swift in Sources */,
+				2515C7492A55007200252D9F /* PostUsersBookmarksRequestV2.swift in Sources */,
+				2515C7BD2A55007300252D9F /* PostFriendshipsUpdateRequestV1.swift in Sources */,
+				2515C7DA2A55007300252D9F /* GetListsShowRequestV1.swift in Sources */,
+				2515C7132A55007200252D9F /* DirectMessageAPIv2.swift in Sources */,
+				2515C7FE2A55007300252D9F /* UploadMediaEntity.swift in Sources */,
+				2515C73B2A55007200252D9F /* GetUsersFollowersRequestV2.swift in Sources */,
+				2515C73E2A55007200252D9F /* GetComplianceJobRequestV2.swift in Sources */,
+				2515C75A2A55007200252D9F /* PostUsersPinnedListsRequestV2.swift in Sources */,
+				2515C74F2A55007200252D9F /* GetTweetsCountsAllRequestV2.swift in Sources */,
+				2515C7CE2A55007300252D9F /* GetSearchTweetsRequestV1.swift in Sources */,
+				2515C75D2A55007200252D9F /* GetListRequestV2.swift in Sources */,
+				2515C70D2A55007200252D9F /* GetDmEventsRequestV2.swift in Sources */,
+				2515C77D2A55007200252D9F /* TwitterAPISessionJSONTask.swift in Sources */,
+				2515C7EA2A55007300252D9F /* GetApplicationRateLimitStatusRequestV1.swift in Sources */,
+				2515C7742A55007200252D9F /* Result.swift in Sources */,
+				2515C70C2A55007200252D9F /* TwitterDirectMessageEventTypeV2.swift in Sources */,
+				2515C7472A55007200252D9F /* SearchAPIv2.swift in Sources */,
+				2515C7C52A55007300252D9F /* GetFollowersListRequestV1.swift in Sources */,
+				2515C7802A55007200252D9F /* TwitterAPISessionDelegatedStreamTask.swift in Sources */,
+				2515C74B2A55007200252D9F /* GetUsersBookmarksRequestV2.swift in Sources */,
+				2515C7882A55007200252D9F /* PostDirectMessagesIndicateTypingRequestV1.swift in Sources */,
+				2515C77A2A55007200252D9F /* TwitterAPIKitError.swift in Sources */,
+				2515C7F72A55007300252D9F /* UploadMediaAppendRequestV1.swift in Sources */,
+				2515C7522A55007200252D9F /* DeleteListRequestV2.swift in Sources */,
+				2515C74E2A55007200252D9F /* TweetCountGranularity.swift in Sources */,
+				2515C7D52A55007300252D9F /* PostListsSubscribersCreateRequestV1.swift in Sources */,
+				2515C7952A55007200252D9F /* GetRetweetsRequestV1.swift in Sources */,
+				2515C7622A55007200252D9F /* GetUsersByRequestV2.swift in Sources */,
+				2515C7C32A55007300252D9F /* GetFollowersIDsRequestV1.swift in Sources */,
+				2515C79D2A55007200252D9F /* PostCollectionsEntriesMoveRequestV1.swift in Sources */,
+				2515C7D42A55007300252D9F /* GetListsOwnershipsRequestV1.swift in Sources */,
+				2515C76A2A55007200252D9F /* GetUsersMentionsRequestV2.swift in Sources */,
+				2515C7C22A55007300252D9F /* GetFriendshipsShowRequestV1.swift in Sources */,
+				2515C7A22A55007200252D9F /* TwitterAPIv1.swift in Sources */,
+				2515C75C2A55007200252D9F /* PostListsRequestV2.swift in Sources */,
+				2515C7282A55007200252D9F /* GetTweetsSampleStreamRequestV2.swift in Sources */,
+				2515C7912A55007200252D9F /* PostRetweetRequestV1.swift in Sources */,
+				2515C7702A55007200252D9F /* TwitterAPIRequest.swift in Sources */,
+				2515C7552A55007200252D9F /* DeleteUsersFollowedListsRequestV2.swift in Sources */,
+				2515C7E12A55007300252D9F /* PostListsUpdateRequestV1.swift in Sources */,
+				2515C7A02A55007200252D9F /* PostCollectionsEntriesCurateRequestV1.swift in Sources */,
+				2515C7322A55007200252D9F /* GetUsersBlockingRequestV2.swift in Sources */,
+				2515C76B2A55007200252D9F /* GetUsersTweetsRequestV2.swift in Sources */,
+				2515C76E2A55007200252D9F /* TwitterAPIErrorResponse.swift in Sources */,
+				2515C7192A55007200252D9F /* GetTweetsQuoteTweetsRequestV2.swift in Sources */,
+				2515C7D32A55007300252D9F /* PostListsCreateRequestV1.swift in Sources */,
+				2515C7E52A55007300252D9F /* GetUsersProfileBannerRequestV1.swift in Sources */,
+				2515C79A2A55007200252D9F /* GetCollectionsListRequestV1.swift in Sources */,
+				2515C7CC2A55007300252D9F /* PostSavedSearchesDestroyRequestV1.swift in Sources */,
+				2515C77F2A55007200252D9F /* TwitterAPISessionStreamTask.swift in Sources */,
+				2515C7EB2A55007300252D9F /* ApplicationAPIv1.swift in Sources */,
+				2515C7862A55007200252D9F /* PostDirectMessageRequestV1.swift in Sources */,
+				2515C7792A55007200252D9F /* OAuthHelper.swift in Sources */,
+				2515C7B22A55007300252D9F /* GetMutesUsersListRequestV1.swift in Sources */,
+				2515C7E82A55007300252D9F /* GetUsersShowRequestV1.swift in Sources */,
+				2515C7412A55007200252D9F /* TwitterComplianceJobTypeV2.swift in Sources */,
+				2515C7302A55007200252D9F /* SpacesAPIv2.swift in Sources */,
+				2515C7E22A55007300252D9F /* PostListsMembersCreateRequestV1.swift in Sources */,
+				2515C7312A55007200252D9F /* DeleteUsersMutingRequestV2.swift in Sources */,
+				2515C7262A55007200252D9F /* GetTweetsSearchStreamRequestV2.swift in Sources */,
+				2515C7FB2A55007300252D9F /* PostMediaSubtitlesCreateRequestV1.swift in Sources */,
+				2515C8132A55007300252D9F /* TwitterAPIKit.swift in Sources */,
+				2515C70F2A55007200252D9F /* PostDmConversationByIdRequestV2.swift in Sources */,
+				2515C7892A55007200252D9F /* GetDirectMessageListRequestV1.swift in Sources */,
+				2515C79B2A55007200252D9F /* PostCollectionsUpdateRequestV1.swift in Sources */,
+				2515C70E2A55007200252D9F /* GetDmConversationsWithParticipantIdDmEventsRequestV2.swift in Sources */,
+				2515C7DE2A55007300252D9F /* GetListsMembershipsRequestV1.swift in Sources */,
+				2515C7962A55007200252D9F /* TwitterLocations.swift in Sources */,
+				2515C7B72A55007300252D9F /* PostUnFavoriteRequestV1.swift in Sources */,
+				2515C7922A55007200252D9F /* GetRetweetersRequestV1.swift in Sources */,
+				2515C7582A55007200252D9F /* DeleteListsMembersRequestV2.swift in Sources */,
+				2515C7232A55007200252D9F /* LikeAPIv2.swift in Sources */,
+				2515C7C42A55007300252D9F /* GetFriendsListRequestV1.swift in Sources */,
+				2515C7F22A55007300252D9F /* PostAccountUpdateProfileImageRequestV1.swift in Sources */,
+				2515C77C2A55007200252D9F /* TwitterAPISessionDelegatedJSONTask.swift in Sources */,
+				2515C7182A55007200252D9F /* DeleteTweetRequestV2.swift in Sources */,
+				2515C7452A55007200252D9F /* GetTweetsSearchRecentRequestV2.swift in Sources */,
+				2515C7422A55007200252D9F /* ComplianceAPIv2.swift in Sources */,
+				2515C7462A55007200252D9F /* TwitterSearchTweetsSortOrderV2.swift in Sources */,
+				2515C77E2A55007200252D9F /* TwitterAPISessionSpecializedTask.swift in Sources */,
+				2515C7F32A55007300252D9F /* PostAccountUpdateProfileBannerRequestV1.swift in Sources */,
+				2515C7832A55007200252D9F /* TwitterUserIdentifierV1.swift in Sources */,
+				2515C77B2A55007200252D9F /* TwitterAPIFailedTask.swift in Sources */,
+				2515C7372A55007200252D9F /* BlockAndMuteAPIv2.swift in Sources */,
+				2515C7112A55007200252D9F /* GetDmConversationsIdDmEventsRequestV2.swift in Sources */,
+				2515C7B92A55007300252D9F /* GetFavoritesRequestV1.swift in Sources */,
+				2515C7512A55007200252D9F /* PutListRequestV2.swift in Sources */,
+				2515C7432A55007200252D9F /* TwitterAPIv2.swift in Sources */,
+				2515C7A42A55007200252D9F /* GetTrendsPlaceRequestV1.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2515C5AC2A54FF4900252D9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2515C5AD2A54FF4900252D9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2515C5AF2A54FF4900252D9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.s2mr.TwitterAPIKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2515C5B02A54FF4900252D9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.s2mr.TwitterAPIKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2515C5A12A54FF4900252D9F /* Build configuration list for PBXProject "TwitterAPIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2515C5AC2A54FF4900252D9F /* Debug */,
+				2515C5AD2A54FF4900252D9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2515C5AE2A54FF4900252D9F /* Build configuration list for PBXNativeTarget "TwitterAPIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2515C5AF2A54FF4900252D9F /* Debug */,
+				2515C5B02A54FF4900252D9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2515C59E2A54FF4900252D9F /* Project object */;
+}
